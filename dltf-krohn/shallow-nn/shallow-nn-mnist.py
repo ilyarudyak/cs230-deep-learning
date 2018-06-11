@@ -28,9 +28,31 @@ def plot_digits():
 
 
 def preprocess_data():
-    pass
+    X_train, y_train, X_test, y_test = get_raw_data()
+
+    X_train = X_train.reshape(60000, 784).astype('float32')
+    X_test = X_test.reshape(10000, 784).astype('float32')
+    X_train /= 255
+    X_test /= 255
+
+    # one hot encoding
+    n_classes = 10
+    y_train = keras.utils.to_categorical(y_train, n_classes)
+    y_test = keras.utils.to_categorical(y_test, n_classes)
+
+    return X_train, y_train, X_test, y_test
+
+
+def fit_shallow_nn(epochs=1):
+    X_train, y_train, X_test, y_test = preprocess_data()
+    model = Sequential()
+    model.add(Dense(64, activation='sigmoid', input_shape=(784,)))
+    model.add(Dense(10, activation='softmax'))
+    model.compile(loss='mean_squared_error', optimizer=SGD(lr=0.01), metrics=['accuracy'])
+    model.fit(X_train, y_train, batch_size=128, epochs=epochs,
+              verbose=1, validation_data=(X_test, y_test))
 
 
 if __name__ == '__main__':
     np.random.seed(42)
-    plot_digits()
+    fit_shallow_nn(10)
