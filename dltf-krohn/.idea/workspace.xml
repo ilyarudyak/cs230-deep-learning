@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f95730-0ae6-4e41-9bda-1f8a799529d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fully_connected_nn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dl_libraries.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shallow-nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shallow-nn/mnist_plot_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/mnist_plot_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shallow-nn/mnist_plot_labels_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/mnist_plot_labels_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shallow-nn/shallow-nn-mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,29 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shallow_nn_mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="56" selection-start-line="56" selection-end-line="57" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#224#324#0" />
-                <element signature="e#350#788#0" />
-                <element signature="e#818#1231#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deep_nn_mnist.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="dl_libraries.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dl_libraries.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="535">
+                <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,12 +46,13 @@
         <option value="$PROJECT_DIR$/datasets.md" />
         <option value="$PROJECT_DIR$/fully-connected-nn/deep-nn-mnist.py" />
         <option value="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" />
+        <option value="$PROJECT_DIR$/dl_libraries.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
-    <option name="y" value="21" />
+    <option name="x" value="98" />
+    <option name="y" value="20" />
     <option name="width" value="1099" />
     <option name="height" value="695" />
   </component>
@@ -88,11 +70,6 @@
             <path>
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
-              <item name="fully_connected_nn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,15 +156,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="21" width="1099" height="695" extended-state="0" />
+    <frame x="98" y="20" width="1099" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49331352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49331352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32986626" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -267,11 +244,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="528">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screen Shot 2018-06-12 at 2.26.12 PM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dl_libraries.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="535">
+            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
