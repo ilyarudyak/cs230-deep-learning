@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59cedeed-cfc9-4894-8c32-a41aef484044" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch9_intro_tf/linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch9_intro_tf/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch9_intro_tf/linear_regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +31,17 @@
       <file leaf-file-name="linear_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch9_intro_tf/linear_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="467">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#172#369#0" />
+                <element signature="e#448#757#0" />
+                <element signature="e#418#728#0" />
+                <element signature="e#1663#1988#0" />
+                <element signature="e#1685#1899#0" />
+                <element signature="e#1751#1864#0" />
+                <element signature="e#1872#2286#0" />
+                <element signature="e#804#829#0" />
               </folding>
             </state>
           </provider>
@@ -172,13 +180,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="20" width="1099" height="695" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50520056" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5007429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32986626" />
       <window_info id="Favorites" side_tool="true" />
@@ -218,10 +227,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch9_intro_tf/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="467">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#172#369#0" />
+            <element signature="e#448#757#0" />
+            <element signature="e#418#728#0" />
+            <element signature="e#1663#1988#0" />
+            <element signature="e#1685#1899#0" />
+            <element signature="e#1751#1864#0" />
+            <element signature="e#1872#2286#0" />
+            <element signature="e#804#829#0" />
           </folding>
         </state>
       </provider>
