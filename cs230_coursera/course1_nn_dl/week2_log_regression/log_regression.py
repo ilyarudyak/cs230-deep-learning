@@ -79,7 +79,7 @@ def propagate(w, b, X, Y):
 
     # forward prop
     A = sigmoid(w.T.dot(X) + b)
-    print(np.sum(A == 1.0), np.sum(1.0-A == 0))
+    A[A == 1.0] = .99999
     cost = -(1.0 / m) * np.sum(Y * np.log(A) + (1.0 - Y) * np.log(1.0 - A))
 
     # back prop
@@ -193,14 +193,48 @@ def accuracy(Y_pred, Y_true):
     return np.mean((Y_pred == Y_true).astype(float))
 
 
+def plot_costs(costs, learning_rate):
+    plt.plot(costs)
+    plt.ylabel('cost')
+    plt.xlabel('iterations (per hundreds)')
+    plt.title(f'Learning rate = {learning_rate}')
+    plt.show()
+
+
+def get_wrong_images(n_images=10):
+    train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
+    mistakes_mask = d['Y_prediction_test'] != Y_test
+    mistakes_images = test_set_x_orig[mistakes_mask[0], :, :, :]
+    return mistakes_images[0:n_images, :, :, :]
+
+
+def plot_wrong_images(n_rows=2, n_cols=5, size=6):
+    images = get_wrong_images()
+    fig, ax = plt.subplots(n_rows, n_cols, figsize=(size, size))
+    for i, axi in enumerate(ax.flat):
+        axi.imshow(images[i], cmap='binary')
+        axi.set(xticks=[], yticks=[])
+    plt.show()
+
+
+def get_prediction_on_image(image_filename, num_px=64):
+    image = np.array(ndimage.imread(image_filename, flatten=False))
+    image_reshaped = scipy.misc.imresize(image, size=(num_px, num_px)).reshape((1, num_px*num_px*3)).T
+    y_pred = predict(d["w"], d["b"], image_reshaped)
+    return y_pred
+
+
 if __name__ == '__main__':
     X_train, Y_train, X_test, Y_test = get_processed_data()
-    n, m = X_train.shape
-    w, b = initialize_with_zeros(n)
-    params, grads, costs = optimize(w, b, X_train, Y_train,
-                                    num_iterations=1000,
-                                    learning_rate=.1,
-                                    print_cost=False)
-    print(costs)
+    d = model(X_train, Y_train, X_test, Y_test, num_iterations=1000, learning_rate=0.005,
+              print_cost=True)
 
+    # plot_costs(np.squeeze(d['costs']), d['learning_rate'])
+    # plot_wrong_images()
+
+    # fname = './my_cat_image.jpg'
+    # image = np.array(ndimage.imread(fname, flatten=False))
+    # plt.imshow(image)
+    # plt.show()
+    print(get_prediction_on_image('./my_cat_image.jpg'))
 
