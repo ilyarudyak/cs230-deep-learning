@@ -29,6 +29,16 @@ def get_processed_data():
     return train_set_x, train_set_y, test_set_x, test_set_y
 
 
+def plot_sample_pictures():
+    train_images, train_labels, _, _, _ = load_dataset()
+    fig, axs = plt.subplots(5, 5, figsize=(8, 8))
+    for i, ax in enumerate(axs.flat):
+        ax.imshow(train_images[i])
+        ax.legend(title=str(train_labels[0, i]), labels=['0'], fontsize='xx-small', loc='lower right')
+        ax.set(xticks=[], yticks=[])
+    plt.show()
+
+
 def sigmoid(z):
     s = 1.0 / (1 + np.exp(-z))
     return s
@@ -45,7 +55,7 @@ def initialize_with_zeros(dim):
     w -- initialized vector of shape (dim, 1)
     b -- initialized scalar (corresponds to the bias)
     """
-    w, b = 0, 0
+    w, b = np.zeros((dim, 1)), 0
     return w, b
 
 
@@ -67,7 +77,18 @@ def propagate(w, b, X, Y):
     Tips:
     - Write your code step by step for the propagation. np.log(), np.dot()
     """
-    grads, cost = 0, 0
+    _, m = X.shape
+
+    # forward prop
+    A = sigmoid(w.T.dot(X) + b)
+    cost = -(1/m) * np.sum(Y * np.log(A) + (1 - Y) * np.log(1 - A))
+
+    # back prop
+    dw = (1/m) * X.dot((A - Y).T)
+    db = (1/m) * np.sum(A - Y)
+
+    cost = np.squeeze(cost)
+    grads = {'dw': dw, 'db': db}
     return grads, cost
 
 
@@ -94,7 +115,29 @@ def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost=False):
         1) Calculate the cost and the gradient for the current parameters. Use propagate().
         2) Update the parameters using gradient descent rule for w and b.
     """
-    params, grads, costs = 0, 0, 0
+    costs = []
+
+    for i in range(num_iterations):
+
+        # propagate
+        grads, cost = propagate(w, b, X, Y)
+        dw, db = grads['dw'], grads['db']
+
+        # update weights
+        w -= learning_rate * dw
+        b -= learning_rate * db
+
+        # record the costs
+        if i % 100 == 0:
+            costs.append(cost)
+
+        # print the cost every 100 training examples
+        if print_cost and i % 100 == 0:
+            print(f'Cost after iteration {i}: {float(cost):.2f}')
+
+    params = {'w': w, 'b': b}
+    grads = {'dw': dw, 'db': db}
+
     return params, grads, costs
 
 
@@ -114,5 +157,19 @@ def predict(w, b, X):
     return Y_prediction
 
 
+def model(X_train, Y_train, X_test, Y_test,
+          num_iterations = 2000, learning_rate = 0.5, print_cost = False):
+    return
+
+
 if __name__ == '__main__':
-    train_set_x, train_set_y, test_set_x, test_set_y = get_processed_data()
+    w, b, X, Y = np.array([[1.0], [2.0]]), 2.0, np.array([[1.0, 2.0], [3.0, 4.0]]), np.array([[1.0, 0.0]])
+    params, grads, costs = optimize(w, b, X, Y,
+                                    num_iterations=100,
+                                    learning_rate=0.009,
+                                    print_cost=False)
+
+    print("w = " + str(params["w"]))
+    print("b = " + str(params["b"]))
+    print("dw = " + str(grads["dw"]))
+    print("db = " + str(grads["db"]))

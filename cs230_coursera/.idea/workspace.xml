@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course1_nn_dl/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,33 +16,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="notes.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course1_nn_dl/notes.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="320">
-                <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="log_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+            <state relative-caret-position="1402">
+              <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
               <folding>
-                <element signature="e#216#821#0" />
-                <element signature="e#306#318#0" />
-                <element signature="e#861#927#0" />
-                <element signature="e#948#1275#0" />
-                <element signature="e#948#1259#2" />
-                <element signature="e#2121#3253#0" />
-                <element signature="e#2121#3220#2" />
-                <element signature="e#3316#4278#0" />
+                <element signature="e#226#847#0" />
+                <element signature="e#336#348#0" />
+                <element signature="e#882#1209#0" />
+                <element signature="e#1031#1194#0" />
+                <element signature="e#3316#3745#0" />
+                <element signature="e#3316#3700#1" />
+                <element signature="e#4254#4260#0" />
               </folding>
             </state>
           </provider>
@@ -71,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="36" />
+    <option name="x" value="160" />
+    <option name="y" value="24" />
     <option name="width" value="1047" />
     <option name="height" value="667" />
   </component>
@@ -101,6 +87,18 @@
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course1_nn_dl" type="462c0819:PsiDirectoryNode" />
               <item name="week2_log_regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="course1_nn_dl" type="462c0819:PsiDirectoryNode" />
+              <item name="week3_shallow_nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="course1_nn_dl" type="462c0819:PsiDirectoryNode" />
+              <item name="week4_deep_nn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,42 +162,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="36" width="1047" height="667" extended-state="0" />
+    <frame x="160" y="24" width="1047" height="667" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33178294" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4511628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32973805" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_deep_nn.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -212,17 +200,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="2140">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
-            <element signature="e#216#821#0" />
-            <element signature="e#306#318#0" />
-            <element signature="e#861#927#0" />
-            <element signature="e#948#1275#0" />
-            <element signature="e#948#1259#2" />
-            <element signature="e#2121#3253#0" />
-            <element signature="e#2121#3220#2" />
-            <element signature="e#3316#4278#0" />
+            <element signature="e#226#847#0" />
+            <element signature="e#336#348#0" />
+            <element signature="e#882#1209#0" />
+            <element signature="e#1031#1194#0" />
+            <element signature="e#3316#3745#0" />
+            <element signature="e#3316#3700#1" />
+            <element signature="e#4254#4260#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_deep_nn.py" />
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1402">
+          <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
+          <folding>
+            <element signature="e#226#847#0" />
+            <element signature="e#336#348#0" />
+            <element signature="e#882#1209#0" />
+            <element signature="e#1031#1194#0" />
+            <element signature="e#3316#3745#0" />
+            <element signature="e#3316#3700#1" />
+            <element signature="e#4254#4260#0" />
           </folding>
         </state>
       </provider>
