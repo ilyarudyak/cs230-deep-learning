@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/Planar+data+classification+with+one+hidden+layer+v3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/Planar+data+classification+with+one+hidden+layer+v3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../udacity-dl/first_neural_network/my_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/first_neural_network/my_answers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="log_regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
+      <file leaf-file-name="planar_classifier.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="233" column="68" selection-start-line="233" selection-start-column="68" selection-end-line="233" selection-end-column="68" />
+            <state relative-caret-position="340">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#336#348#0" />
-                <element signature="e#882#1209#0" />
-                <element signature="e#1031#1194#0" />
-                <element signature="e#948#1291#0" />
-                <element signature="e#948#1259#1" />
-                <element signature="e#1917#2925#0" />
-                <element signature="e#1325#1993#1" />
-                <element signature="e#3007#4696#0" />
-                <element signature="e#2121#3220#1" />
-                <element signature="e#3957#4420#0" />
-                <element signature="e#3316#3700#1" />
-                <element signature="e#5572#5587#0" />
+                <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,6 +41,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -57,6 +55,7 @@
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_deep_nn.py" />
         <option value="$PROJECT_DIR$/course1_nn_dl/notes.md" />
         <option value="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" />
+        <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" />
       </list>
     </option>
   </component>
@@ -74,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,12 +85,6 @@
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course1_nn_dl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="course1_nn_dl" type="462c0819:PsiDirectoryNode" />
-              <item name="week2_log_regression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
@@ -108,12 +102,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="/opt/local/bin/python2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course1_nn_dl/week2_log_regression" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.planar_classifier">
     <configuration name="log_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,8 +144,31 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="planar_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.log_regression" />
+      <item itemvalue="Python.planar_classifier" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.planar_classifier" />
         <item itemvalue="Python.log_regression" />
       </list>
     </recent_temporary>
@@ -172,7 +193,6 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4511628" />
@@ -186,13 +206,25 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course1_nn_dl/notes.md">
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="320">
@@ -206,21 +238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2140">
           <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#336#348#0" />
-            <element signature="e#882#1209#0" />
-            <element signature="e#1031#1194#0" />
-            <element signature="e#948#1291#0" />
-            <element signature="e#948#1259#1" />
-            <element signature="e#1917#2925#0" />
-            <element signature="e#1325#1993#1" />
-            <element signature="e#3007#4696#0" />
-            <element signature="e#2121#3220#1" />
-            <element signature="e#3957#4420#0" />
-            <element signature="e#3316#3700#1" />
-            <element signature="e#5572#5587#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -232,7 +249,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course1_nn_dl/notes.md">
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="60">
@@ -242,24 +266,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week4_deep_nn/Deep+Neural+Network+-+Application+v3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/this_is_our_planar_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="233" column="68" selection-start-line="233" selection-start-column="68" selection-end-line="233" selection-end-column="68" />
+        <state relative-caret-position="340">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#336#348#0" />
-            <element signature="e#882#1209#0" />
-            <element signature="e#1031#1194#0" />
-            <element signature="e#948#1291#0" />
-            <element signature="e#948#1259#1" />
-            <element signature="e#1917#2925#0" />
-            <element signature="e#1325#1993#1" />
-            <element signature="e#3007#4696#0" />
-            <element signature="e#2121#3220#1" />
-            <element signature="e#3957#4420#0" />
-            <element signature="e#3316#3700#1" />
-            <element signature="e#5572#5587#0" />
+            <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
           </folding>
         </state>
       </provider>
