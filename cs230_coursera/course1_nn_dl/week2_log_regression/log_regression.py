@@ -11,8 +11,6 @@ from course1_nn_dl.week2_log_regression.lr_utils import load_dataset
 def get_processed_data():
     train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
 
-    print(classes)
-
     # index = 10
     # plt.imshow(train_set_x_orig[index])
     # is_cat = train_set_y[0, index] == 1
@@ -23,8 +21,8 @@ def get_processed_data():
     train_set_x_flatten = train_set_x_orig.reshape(train_set_x_orig.shape[0], -1).T
     test_set_x_flatten = test_set_x_orig.reshape(test_set_x_orig.shape[0], -1).T
 
-    train_set_x = train_set_x_flatten/255.0
-    test_set_x = test_set_x_flatten/255.0
+    train_set_x = train_set_x_flatten / 255.0
+    test_set_x = test_set_x_flatten / 255.0
 
     return train_set_x, train_set_y, test_set_x, test_set_y
 
@@ -81,11 +79,12 @@ def propagate(w, b, X, Y):
 
     # forward prop
     A = sigmoid(w.T.dot(X) + b)
-    cost = -(1/m) * np.sum(Y * np.log(A) + (1 - Y) * np.log(1 - A))
+    print(np.sum(A == 1.0), np.sum(1.0-A == 0))
+    cost = -(1.0 / m) * np.sum(Y * np.log(A) + (1.0 - Y) * np.log(1.0 - A))
 
     # back prop
-    dw = (1/m) * X.dot((A - Y).T)
-    db = (1/m) * np.sum(A - Y)
+    dw = (1.0 / m) * X.dot((A - Y).T)
+    db = (1.0 / m) * np.sum(A - Y)
 
     cost = np.squeeze(cost)
     grads = {'dw': dw, 'db': db}
@@ -153,23 +152,55 @@ def predict(w, b, X):
     Returns:
     Y_prediction -- a numpy array (vector) containing all predictions (0/1) for the examples in X
     """
-    Y_prediction = 0
-    return Y_prediction
+    Y_prediction = w.T.dot(X) + b > 0
+    return Y_prediction.astype(int)
 
 
 def model(X_train, Y_train, X_test, Y_test,
-          num_iterations = 2000, learning_rate = 0.5, print_cost = False):
-    return
+          num_iterations=2000, learning_rate=0.5, print_cost=False):
+    n, m = X_train.shape
+
+    # initialize parameters
+    w, b = initialize_with_zeros(n)
+
+    # optimize model
+    params, grads, costs = optimize(w, b, X_train, Y_train,
+                                    num_iterations,
+                                    learning_rate,
+                                    print_cost=print_cost)
+    w, b = params['w'], params['b']
+
+    # predict
+    Y_prediction_train = predict(w, b, X_train)
+    Y_prediction_test = predict(w, b, X_test)
+
+    accuracy_train = accuracy(Y_prediction_train, Y_train)
+    accuracy_test = accuracy(Y_prediction_test, Y_test)
+    print(f'accuracy train:{accuracy_train:.6f}\naccuracy test:{accuracy_test:.6f}')
+
+    d = {'num_iterations': num_iterations,
+         'learning_rate': learning_rate,
+         'w': w,
+         'b': b,
+         'Y_prediction_train': Y_prediction_train,
+         'Y_prediction_test': Y_prediction_test,
+         'costs': costs}
+
+    return d
+
+
+def accuracy(Y_pred, Y_true):
+    return np.mean((Y_pred == Y_true).astype(float))
 
 
 if __name__ == '__main__':
-    w, b, X, Y = np.array([[1.0], [2.0]]), 2.0, np.array([[1.0, 2.0], [3.0, 4.0]]), np.array([[1.0, 0.0]])
-    params, grads, costs = optimize(w, b, X, Y,
-                                    num_iterations=100,
-                                    learning_rate=0.009,
+    X_train, Y_train, X_test, Y_test = get_processed_data()
+    n, m = X_train.shape
+    w, b = initialize_with_zeros(n)
+    params, grads, costs = optimize(w, b, X_train, Y_train,
+                                    num_iterations=1000,
+                                    learning_rate=.1,
                                     print_cost=False)
+    print(costs)
 
-    print("w = " + str(params["w"]))
-    print("b = " + str(params["b"]))
-    print("dw = " + str(grads["dw"]))
-    print("db = " + str(grads["db"]))
+

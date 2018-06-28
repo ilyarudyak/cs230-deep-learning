@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
@@ -20,16 +18,22 @@
       <file leaf-file-name="log_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1402">
-              <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
+            <state relative-caret-position="291">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               <folding>
-                <element signature="e#226#847#0" />
                 <element signature="e#336#348#0" />
                 <element signature="e#882#1209#0" />
                 <element signature="e#1031#1194#0" />
-                <element signature="e#3316#3745#0" />
+                <element signature="e#948#1291#0" />
+                <element signature="e#948#1259#1" />
+                <element signature="e#1325#1993#1" />
+                <element signature="e#2121#3220#1" />
+                <element signature="e#3957#4420#0" />
+                <element signature="e#4481#4936#0" />
                 <element signature="e#3316#3700#1" />
-                <element signature="e#4254#4260#0" />
+                <element signature="e#5059#5708#0" />
+                <element signature="e#5646#5866#0" />
+                <element signature="e#5572#5587#0" />
               </folding>
             </state>
           </provider>
@@ -203,13 +207,19 @@
         <state relative-caret-position="2140">
           <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
-            <element signature="e#226#847#0" />
             <element signature="e#336#348#0" />
             <element signature="e#882#1209#0" />
             <element signature="e#1031#1194#0" />
-            <element signature="e#3316#3745#0" />
+            <element signature="e#948#1291#0" />
+            <element signature="e#948#1259#1" />
+            <element signature="e#1325#1993#1" />
+            <element signature="e#2121#3220#1" />
+            <element signature="e#3957#4420#0" />
+            <element signature="e#4481#4936#0" />
             <element signature="e#3316#3700#1" />
-            <element signature="e#4254#4260#0" />
+            <element signature="e#5059#5708#0" />
+            <element signature="e#5646#5866#0" />
+            <element signature="e#5572#5587#0" />
           </folding>
         </state>
       </provider>
@@ -234,16 +244,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1402">
-          <caret line="165" column="103" selection-start-line="165" selection-start-column="103" selection-end-line="165" selection-end-column="103" />
+        <state relative-caret-position="291">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding>
-            <element signature="e#226#847#0" />
             <element signature="e#336#348#0" />
             <element signature="e#882#1209#0" />
             <element signature="e#1031#1194#0" />
-            <element signature="e#3316#3745#0" />
+            <element signature="e#948#1291#0" />
+            <element signature="e#948#1259#1" />
+            <element signature="e#1325#1993#1" />
+            <element signature="e#2121#3220#1" />
+            <element signature="e#3957#4420#0" />
+            <element signature="e#4481#4936#0" />
             <element signature="e#3316#3700#1" />
-            <element signature="e#4254#4260#0" />
+            <element signature="e#5059#5708#0" />
+            <element signature="e#5646#5866#0" />
+            <element signature="e#5572#5587#0" />
           </folding>
         </state>
       </provider>
