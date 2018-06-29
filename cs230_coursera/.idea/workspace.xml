@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/testCases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/Planar+data+classification+with+one+hidden+layer+v3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/Planar+data+classification+with+one+hidden+layer+v3.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
@@ -22,11 +22,22 @@
       <file leaf-file-name="planar_classifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="434">
+              <caret line="124" column="54" lean-forward="true" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
+                <element signature="e#305#385#0" />
+                <element signature="e#423#606#0" />
+                <element signature="e#636#949#0" />
+                <element signature="e#636#919#2" />
+                <element signature="e#1039#1543#0" />
+                <element signature="e#1039#1477#1" />
+                <element signature="e#1037#1350#0" />
+                <element signature="e#1037#1329#2" />
+                <element signature="e#1034#1434#0" />
+                <element signature="e#1034#1417#2" />
+                <element signature="e#3475#3828#0" />
+                <element signature="e#3475#3784#2" />
+                <element signature="e#3859#3940#0" />
               </folding>
             </state>
           </provider>
@@ -55,6 +66,8 @@
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_deep_nn.py" />
         <option value="$PROJECT_DIR$/course1_nn_dl/notes.md" />
         <option value="$PROJECT_DIR$/course1_nn_dl/week2_log_regression/log_regression.py" />
+        <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_utils.py" />
+        <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/testCases.py" />
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" />
       </list>
     </option>
@@ -218,8 +231,19 @@
         <state relative-caret-position="140">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
+            <element signature="e#305#385#0" />
+            <element signature="e#423#606#0" />
+            <element signature="e#636#949#0" />
+            <element signature="e#636#919#2" />
+            <element signature="e#1039#1543#0" />
+            <element signature="e#1039#1477#1" />
+            <element signature="e#1037#1350#0" />
+            <element signature="e#1037#1329#2" />
+            <element signature="e#1034#1434#0" />
+            <element signature="e#1034#1417#2" />
+            <element signature="e#3475#3828#0" />
+            <element signature="e#3475#3784#2" />
+            <element signature="e#3859#3940#0" />
           </folding>
         </state>
       </provider>
@@ -276,13 +300,74 @@
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/this_is_our_planar_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/testCases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+          <folding>
+            <element signature="e#54#175#0" />
+            <element signature="e#221#269#0" />
+            <element signature="e#313#941#0" />
+            <element signature="e#386#908#0" />
+            <element signature="e#402#614#0" />
+            <element signature="e#738#864#0" />
+            <element signature="e#978#1669#0" />
+            <element signature="e#1050#1572#0" />
+            <element signature="e#1066#1278#0" />
+            <element signature="e#1402#1528#0" />
+            <element signature="e#1714#3079#0" />
+            <element signature="e#1823#2345#0" />
+            <element signature="e#1839#2051#0" />
+            <element signature="e#2175#2301#0" />
+            <element signature="e#2359#3030#0" />
+            <element signature="e#2375#2617#0" />
+            <element signature="e#2716#2958#0" />
+            <element signature="e#3121#4352#0" />
+            <element signature="e#3134#3714#0" />
+            <element signature="e#3150#3359#0" />
+            <element signature="e#3482#3658#0" />
+            <element signature="e#3728#4323#0" />
+            <element signature="e#3745#3942#0" />
+            <element signature="e#3974#4074#0" />
+            <element signature="e#3975#4073#0" />
+            <element signature="e#4106#4270#0" />
+            <element signature="e#4385#4506#0" />
+            <element signature="e#4538#5222#0" />
+            <element signature="e#4610#5190#0" />
+            <element signature="e#4626#4835#0" />
+            <element signature="e#4958#5134#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="434">
+          <caret line="124" column="54" lean-forward="true" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1530216323478" expanded="true" signature="451:459" ph="..." />
+            <element signature="e#305#385#0" />
+            <element signature="e#423#606#0" />
+            <element signature="e#636#949#0" />
+            <element signature="e#636#919#2" />
+            <element signature="e#1039#1543#0" />
+            <element signature="e#1039#1477#1" />
+            <element signature="e#1037#1350#0" />
+            <element signature="e#1037#1329#2" />
+            <element signature="e#1034#1434#0" />
+            <element signature="e#1034#1417#2" />
+            <element signature="e#3475#3828#0" />
+            <element signature="e#3475#3784#2" />
+            <element signature="e#3859#3940#0" />
           </folding>
         </state>
       </provider>
