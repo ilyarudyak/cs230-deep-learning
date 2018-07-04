@@ -22,18 +22,19 @@
       <file leaf-file-name="my_answers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="114" column="68" lean-forward="true" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
+            <state relative-caret-position="1020">
+              <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
               <folding>
                 <element signature="e#757#838#0" />
                 <element signature="e#1054#1121#0" />
-                <element signature="e#1434#2380#0" />
-                <element signature="e#1434#1681#1" />
                 <element signature="e#1923#2303#0" />
+                <element signature="e#2427#3068#0" />
+                <element signature="e#2427#2546#1" />
+                <element signature="e#2555#2596#0" />
+                <element signature="e#3184#4238#0" />
+                <element signature="e#4742#5202#0" />
                 <element signature="e#4877#5545#0" />
                 <element signature="e#4877#5045#1" />
-                <element signature="e#5055#5096#0" />
-                <element signature="e#5548#5605#0" />
               </folding>
             </state>
           </provider>
@@ -154,13 +155,14 @@
           <folding>
             <element signature="e#757#838#0" />
             <element signature="e#1054#1121#0" />
-            <element signature="e#1434#2380#0" />
-            <element signature="e#1434#1681#1" />
             <element signature="e#1923#2303#0" />
+            <element signature="e#2427#3068#0" />
+            <element signature="e#2427#2546#1" />
+            <element signature="e#2555#2596#0" />
+            <element signature="e#3184#4238#0" />
+            <element signature="e#4742#5202#0" />
             <element signature="e#4877#5545#0" />
             <element signature="e#4877#5045#1" />
-            <element signature="e#5055#5096#0" />
-            <element signature="e#5548#5605#0" />
           </folding>
         </state>
       </provider>
@@ -172,31 +174,33 @@
           <folding>
             <element signature="e#757#838#0" />
             <element signature="e#1054#1121#0" />
-            <element signature="e#1434#2380#0" />
-            <element signature="e#1434#1681#1" />
             <element signature="e#1923#2303#0" />
+            <element signature="e#2427#3068#0" />
+            <element signature="e#2427#2546#1" />
+            <element signature="e#2555#2596#0" />
+            <element signature="e#3184#4238#0" />
+            <element signature="e#4742#5202#0" />
             <element signature="e#4877#5545#0" />
             <element signature="e#4877#5045#1" />
-            <element signature="e#5055#5096#0" />
-            <element signature="e#5548#5605#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="114" column="68" lean-forward="true" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
+        <state relative-caret-position="1020">
+          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
           <folding>
             <element signature="e#757#838#0" />
             <element signature="e#1054#1121#0" />
-            <element signature="e#1434#2380#0" />
-            <element signature="e#1434#1681#1" />
             <element signature="e#1923#2303#0" />
+            <element signature="e#2427#3068#0" />
+            <element signature="e#2427#2546#1" />
+            <element signature="e#2555#2596#0" />
+            <element signature="e#3184#4238#0" />
+            <element signature="e#4742#5202#0" />
             <element signature="e#4877#5545#0" />
             <element signature="e#4877#5045#1" />
-            <element signature="e#5055#5096#0" />
-            <element signature="e#5548#5605#0" />
           </folding>
         </state>
       </provider>
