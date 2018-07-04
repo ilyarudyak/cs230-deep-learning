@@ -31,7 +31,7 @@ class NeuralNetwork(object):
         # self.activation_function = sigmoid
 
     def train(self, features, targets):
-        ''' Train the network on batch of features and targets.
+        """ Train the network on batch of features and targets.
 
             Arguments
             ---------
@@ -39,7 +39,7 @@ class NeuralNetwork(object):
             features: 2D array, each row is one data record, each column is a feature
             targets: 1D array of target values
 
-        '''
+        """
         n_records = features.shape[0]
         delta_weights_i_h = np.zeros(self.weights_input_to_hidden.shape)
         delta_weights_h_o = np.zeros(self.weights_hidden_to_output.shape)

@@ -7,6 +7,9 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_neural_network/my_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/my_answers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +23,24 @@
       <file leaf-file-name="my_answers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+            <state relative-caret-position="219">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+              <folding>
+                <element signature="e#757#838#0" />
+                <element signature="e#1073#1140#0" />
+                <element signature="e#1943#2323#0" />
+                <element signature="e#2447#2566#1" />
+                <element signature="e#2575#2616#0" />
+                <element signature="e#3331#4661#0" />
+                <element signature="e#3331#3665#1" />
+                <element signature="e#3674#3716#0" />
+                <element signature="e#4750#5330#0" />
+                <element signature="e#4750#5046#1" />
+                <element signature="e#5369#6173#0" />
+                <element signature="e#5369#5538#1" />
+                <element signature="e#5548#5589#0" />
+                <element signature="e#5548#5605#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +128,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="27" width="1088" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -116,7 +136,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -137,6 +157,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
           <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <element signature="e#757#838#0" />
+            <element signature="e#1073#1140#0" />
+            <element signature="e#1943#2323#0" />
+            <element signature="e#2447#2566#1" />
+            <element signature="e#2575#2616#0" />
+            <element signature="e#3331#4661#0" />
+            <element signature="e#3331#3665#1" />
+            <element signature="e#3674#3716#0" />
+            <element signature="e#4750#5330#0" />
+            <element signature="e#4750#5046#1" />
+            <element signature="e#5369#6173#0" />
+            <element signature="e#5369#5538#1" />
+            <element signature="e#5548#5589#0" />
+            <element signature="e#5548#5605#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -144,13 +180,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+          <folding>
+            <element signature="e#757#838#0" />
+            <element signature="e#1073#1140#0" />
+            <element signature="e#1943#2323#0" />
+            <element signature="e#2447#2566#1" />
+            <element signature="e#2575#2616#0" />
+            <element signature="e#3331#4661#0" />
+            <element signature="e#3331#3665#1" />
+            <element signature="e#3674#3716#0" />
+            <element signature="e#4750#5330#0" />
+            <element signature="e#4750#5046#1" />
+            <element signature="e#5369#6173#0" />
+            <element signature="e#5369#5538#1" />
+            <element signature="e#5548#5589#0" />
+            <element signature="e#5548#5605#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        <state relative-caret-position="219">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="e#757#838#0" />
+            <element signature="e#1073#1140#0" />
+            <element signature="e#1943#2323#0" />
+            <element signature="e#2447#2566#1" />
+            <element signature="e#2575#2616#0" />
+            <element signature="e#3331#4661#0" />
+            <element signature="e#3331#3665#1" />
+            <element signature="e#3674#3716#0" />
+            <element signature="e#4750#5330#0" />
+            <element signature="e#4750#5046#1" />
+            <element signature="e#5369#6173#0" />
+            <element signature="e#5369#5538#1" />
+            <element signature="e#5548#5589#0" />
+            <element signature="e#5548#5605#0" />
+          </folding>
         </state>
       </provider>
     </entry>
