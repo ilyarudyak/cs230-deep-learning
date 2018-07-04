@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecaa3da-de79-48f0-b28a-b34032e6a369" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_neural_network/my_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/my_answers.py" afterDir="false" />
     </list>
@@ -24,12 +22,18 @@
       <file leaf-file-name="my_answers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+            <state relative-caret-position="551">
+              <caret line="114" column="68" lean-forward="true" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
               <folding>
-                <element signature="e#4959#5136#1" />
-                <element signature="e#5154#5195#0" />
-                <element signature="e#5660#5717#0" />
+                <element signature="e#757#838#0" />
+                <element signature="e#1054#1121#0" />
+                <element signature="e#1434#2380#0" />
+                <element signature="e#1434#1681#1" />
+                <element signature="e#1923#2303#0" />
+                <element signature="e#4877#5545#0" />
+                <element signature="e#4877#5045#1" />
+                <element signature="e#5055#5096#0" />
+                <element signature="e#5548#5605#0" />
               </folding>
             </state>
           </provider>
@@ -57,8 +61,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="103" />
     <option name="y" value="27" />
-    <option name="width" value="1038" />
-    <option name="height" value="660" />
+    <option name="width" value="1088" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,15 +121,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="27" width="1038" height="660" extended-state="0" />
+    <frame x="103" y="27" width="1088" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.238921" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -144,24 +149,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        <state relative-caret-position="1240">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding>
-            <element signature="e#4959#5136#1" />
-            <element signature="e#5154#5195#0" />
-            <element signature="e#5660#5717#0" />
+            <element signature="e#757#838#0" />
+            <element signature="e#1054#1121#0" />
+            <element signature="e#1434#2380#0" />
+            <element signature="e#1434#1681#1" />
+            <element signature="e#1923#2303#0" />
+            <element signature="e#4877#5545#0" />
+            <element signature="e#4877#5045#1" />
+            <element signature="e#5055#5096#0" />
+            <element signature="e#5548#5605#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="2340">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
           <folding>
-            <element signature="e#4959#5136#1" />
-            <element signature="e#5154#5195#0" />
-            <element signature="e#5660#5717#0" />
+            <element signature="e#757#838#0" />
+            <element signature="e#1054#1121#0" />
+            <element signature="e#1434#2380#0" />
+            <element signature="e#1434#1681#1" />
+            <element signature="e#1923#2303#0" />
+            <element signature="e#4877#5545#0" />
+            <element signature="e#4877#5045#1" />
+            <element signature="e#5055#5096#0" />
+            <element signature="e#5548#5605#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="114" column="68" lean-forward="true" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
+          <folding>
+            <element signature="e#757#838#0" />
+            <element signature="e#1054#1121#0" />
+            <element signature="e#1434#2380#0" />
+            <element signature="e#1434#1681#1" />
+            <element signature="e#1923#2303#0" />
+            <element signature="e#4877#5545#0" />
+            <element signature="e#4877#5045#1" />
+            <element signature="e#5055#5096#0" />
+            <element signature="e#5548#5605#0" />
           </folding>
         </state>
       </provider>
