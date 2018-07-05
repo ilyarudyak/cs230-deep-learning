@@ -22,8 +22,8 @@
       <file leaf-file-name="my_answers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+            <state relative-caret-position="268">
+              <caret line="144" column="82" lean-forward="true" selection-start-line="144" selection-start-column="82" selection-end-line="144" selection-end-column="82" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#1452#2398#0" />
@@ -66,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="77" />
+    <option name="x" value="99" />
+    <option name="y" value="22" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
   </component>
@@ -128,8 +128,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="77" width="1088" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="160" y="48" width="1088" height="704" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -137,7 +136,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32844576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -231,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+        <state relative-caret-position="268">
+          <caret line="144" column="82" lean-forward="true" selection-start-line="144" selection-start-column="82" selection-end-line="144" selection-end-column="82" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#1452#2398#0" />

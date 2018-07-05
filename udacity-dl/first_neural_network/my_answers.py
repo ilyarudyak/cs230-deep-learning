@@ -137,7 +137,7 @@ class NeuralNetwork(object):
         return np.mean((y - Y) ** 2)
 
     def train_loop(self, iterations, train_features, train_targets,
-                   val_features, val_targets):
+                   val_features, val_targets, verbose=True):
         start = time.time()
         for i in range(iterations):
             # Go through a random batch of 128 records from the training data set
@@ -149,19 +149,21 @@ class NeuralNetwork(object):
             # Printing out the training progress
             train_loss = self.MSE(self.run(train_features).T, train_targets['cnt'].values)
             val_loss = self.MSE(self.run(val_features).T, val_targets['cnt'].values)
-            sys.stdout.write("\rprogress: {:2.1f}% ... training loss: {} ... validation loss: {}"
-                             .format(100 * i / float(iterations-1), str(train_loss)[:5], str(val_loss)[:5]))
-            sys.stdout.flush()
+            if verbose:
+                sys.stdout.write("\rprogress: {:2.1f}% ... training loss: {} ... validation loss: {}"
+                                 .format(100 * i / float(iterations-1), str(train_loss)[:5], str(val_loss)[:5]))
+                sys.stdout.flush()
 
             self.losses['train'].append(train_loss)
             self.losses['validation'].append(val_loss)
-        print("\n\nelapsed time: {:.1f}s".format(time.time() - start))
+        if verbose:
+            print("\n\nelapsed time: {:.1f}s".format(time.time() - start))
 
 
 #########################################################
 # Set your hyperparameters here
 ##########################################################
-iterations = 500  # 100
-learning_rate = .95  # 0.1
-hidden_nodes = 10  # 2
-output_nodes = 1
+# iterations = 500  # 100
+# learning_rate = .95  # 0.1
+# hidden_nodes = 10  # 2
+# output_nodes = 1
