@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+import time
 
 
 class NeuralNetwork(object):
@@ -29,6 +31,7 @@ class NeuralNetwork(object):
         # def sigmoid(x):
         #    return 0  # Replace 0 with your sigmoid calculation here
         # self.activation_function = sigmoid
+        self.losses = {'train': [], 'validation': []}
 
     def train(self, features, targets):
         """ Train the network on batch of features and targets.
@@ -129,6 +132,30 @@ class NeuralNetwork(object):
         final_outputs = final_inputs  # signals from final output layer
 
         return final_outputs
+
+    def MSE(self, y, Y):
+        return np.mean((y - Y) ** 2)
+
+    def train_loop(self, iterations, train_features, train_targets,
+                   val_features, val_targets):
+        start = time.time()
+        for i in range(iterations):
+            # Go through a random batch of 128 records from the training data set
+            batch = np.random.choice(train_features.index, size=128)
+            X, y = train_features.ix[batch].values, train_targets.ix[batch]['cnt']
+
+            self.train(X, y)
+
+            # Printing out the training progress
+            train_loss = self.MSE(self.run(train_features).T, train_targets['cnt'].values)
+            val_loss = self.MSE(self.run(val_features).T, val_targets['cnt'].values)
+            sys.stdout.write("\rprogress: {:2.1f}% ... training loss: {} ... validation loss: {}"
+                             .format(100 * i / float(iterations-1), str(train_loss)[:5], str(val_loss)[:5]))
+            sys.stdout.flush()
+
+            self.losses['train'].append(train_loss)
+            self.losses['validation'].append(val_loss)
+        print("\n\nelapsed time: {:.1f}s".format(time.time() - start))
 
 
 #########################################################

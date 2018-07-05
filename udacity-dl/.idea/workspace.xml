@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/Your_first_neural_network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_neural_network/my_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_neural_network/my_answers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,23 +22,25 @@
       <file leaf-file-name="my_answers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="139" column="16" lean-forward="true" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+            <state relative-caret-position="108">
+              <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
               <folding>
-                <element signature="e#757#838#0" />
-                <element signature="e#1073#1140#0" />
-                <element signature="e#1943#2323#0" />
-                <element signature="e#2447#2566#1" />
-                <element signature="e#2575#2616#0" />
-                <element signature="e#3331#4661#0" />
-                <element signature="e#3331#3665#1" />
-                <element signature="e#3674#3716#0" />
-                <element signature="e#4750#5330#0" />
-                <element signature="e#4750#5046#1" />
-                <element signature="e#5369#6173#0" />
-                <element signature="e#5369#5538#1" />
-                <element signature="e#5548#5589#0" />
-                <element signature="e#5548#5605#0" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1452#2398#0" />
+                <element signature="e#1452#1699#1" />
+                <element signature="e#1941#2321#0" />
+                <element signature="e#2445#3212#0" />
+                <element signature="e#2445#2563#1" />
+                <element signature="e#2572#2613#0" />
+                <element signature="e#3328#4658#0" />
+                <element signature="e#3328#3662#1" />
+                <element signature="e#3671#3713#0" />
+                <element signature="e#4747#5327#0" />
+                <element signature="e#4747#5043#1" />
+                <element signature="e#5366#6168#0" />
+                <element signature="e#5366#5534#1" />
+                <element signature="e#5544#5585#0" />
+                <element signature="e#6171#6228#0" />
               </folding>
             </state>
           </provider>
@@ -62,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="27" />
+    <option name="x" value="161" />
+    <option name="y" value="77" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
   </component>
@@ -75,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,6 +95,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,9 +128,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="27" width="1088" height="704" extended-state="0" />
+    <frame x="161" y="77" width="1088" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22794117" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -151,23 +156,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="139" column="16" lean-forward="true" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1452#2398#0" />
+            <element signature="e#1452#1699#1" />
+            <element signature="e#1941#2321#0" />
+            <element signature="e#2445#3212#0" />
+            <element signature="e#2445#2563#1" />
+            <element signature="e#2572#2613#0" />
+            <element signature="e#3328#4658#0" />
+            <element signature="e#3328#3662#1" />
+            <element signature="e#3671#3713#0" />
+            <element signature="e#4747#5327#0" />
+            <element signature="e#4747#5043#1" />
+            <element signature="e#5366#6168#0" />
+            <element signature="e#5366#5534#1" />
+            <element signature="e#5544#5585#0" />
+            <element signature="e#6171#6228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
           <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding>
-            <element signature="e#757#838#0" />
-            <element signature="e#1073#1140#0" />
-            <element signature="e#1943#2323#0" />
-            <element signature="e#2447#2566#1" />
-            <element signature="e#2575#2616#0" />
-            <element signature="e#3331#4661#0" />
-            <element signature="e#3331#3665#1" />
-            <element signature="e#3674#3716#0" />
-            <element signature="e#4750#5330#0" />
-            <element signature="e#4750#5046#1" />
-            <element signature="e#5369#6173#0" />
-            <element signature="e#5369#5538#1" />
-            <element signature="e#5548#5589#0" />
-            <element signature="e#5548#5605#0" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1452#2398#0" />
+            <element signature="e#1452#1699#1" />
+            <element signature="e#1941#2321#0" />
+            <element signature="e#2445#3212#0" />
+            <element signature="e#2445#2563#1" />
+            <element signature="e#2572#2613#0" />
+            <element signature="e#3328#4658#0" />
+            <element signature="e#3328#3662#1" />
+            <element signature="e#3671#3713#0" />
+            <element signature="e#4747#5327#0" />
+            <element signature="e#4747#5043#1" />
+            <element signature="e#5366#6168#0" />
+            <element signature="e#5366#5534#1" />
+            <element signature="e#5544#5585#0" />
+            <element signature="e#6171#6228#0" />
           </folding>
         </state>
       </provider>
@@ -177,43 +209,47 @@
         <state relative-caret-position="2340">
           <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
           <folding>
-            <element signature="e#757#838#0" />
-            <element signature="e#1073#1140#0" />
-            <element signature="e#1943#2323#0" />
-            <element signature="e#2447#2566#1" />
-            <element signature="e#2575#2616#0" />
-            <element signature="e#3331#4661#0" />
-            <element signature="e#3331#3665#1" />
-            <element signature="e#3674#3716#0" />
-            <element signature="e#4750#5330#0" />
-            <element signature="e#4750#5046#1" />
-            <element signature="e#5369#6173#0" />
-            <element signature="e#5369#5538#1" />
-            <element signature="e#5548#5589#0" />
-            <element signature="e#5548#5605#0" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1452#2398#0" />
+            <element signature="e#1452#1699#1" />
+            <element signature="e#1941#2321#0" />
+            <element signature="e#2445#3212#0" />
+            <element signature="e#2445#2563#1" />
+            <element signature="e#2572#2613#0" />
+            <element signature="e#3328#4658#0" />
+            <element signature="e#3328#3662#1" />
+            <element signature="e#3671#3713#0" />
+            <element signature="e#4747#5327#0" />
+            <element signature="e#4747#5043#1" />
+            <element signature="e#5366#6168#0" />
+            <element signature="e#5366#5534#1" />
+            <element signature="e#5544#5585#0" />
+            <element signature="e#6171#6228#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_neural_network/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="139" column="16" lean-forward="true" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+        <state relative-caret-position="108">
+          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
           <folding>
-            <element signature="e#757#838#0" />
-            <element signature="e#1073#1140#0" />
-            <element signature="e#1943#2323#0" />
-            <element signature="e#2447#2566#1" />
-            <element signature="e#2575#2616#0" />
-            <element signature="e#3331#4661#0" />
-            <element signature="e#3331#3665#1" />
-            <element signature="e#3674#3716#0" />
-            <element signature="e#4750#5330#0" />
-            <element signature="e#4750#5046#1" />
-            <element signature="e#5369#6173#0" />
-            <element signature="e#5369#5538#1" />
-            <element signature="e#5548#5589#0" />
-            <element signature="e#5548#5605#0" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1452#2398#0" />
+            <element signature="e#1452#1699#1" />
+            <element signature="e#1941#2321#0" />
+            <element signature="e#2445#3212#0" />
+            <element signature="e#2445#2563#1" />
+            <element signature="e#2572#2613#0" />
+            <element signature="e#3328#4658#0" />
+            <element signature="e#3328#3662#1" />
+            <element signature="e#3671#3713#0" />
+            <element signature="e#4747#5327#0" />
+            <element signature="e#4747#5043#1" />
+            <element signature="e#5366#6168#0" />
+            <element signature="e#5366#5534#1" />
+            <element signature="e#5544#5585#0" />
+            <element signature="e#6171#6228#0" />
           </folding>
         </state>
       </provider>
