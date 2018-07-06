@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7348149-1422-44df-afdd-c41f55e15945" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/get_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +23,8 @@
       <file leaf-file-name="conv_net.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="189">
+              <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="78" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -219,9 +212,9 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32991204" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -266,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="189">
+          <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="78" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

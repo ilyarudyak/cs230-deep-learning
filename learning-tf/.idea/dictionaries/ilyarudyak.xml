@@ -2,7 +2,9 @@
   <dictionary name="ilyarudyak">
     <words>
       <w>conv</w>
+      <w>ilyarudyak</w>
       <w>minibatch</w>
+      <w>mnist</w>
     </words>
   </dictionary>
 </component>
