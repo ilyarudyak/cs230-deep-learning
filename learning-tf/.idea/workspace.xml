@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,12 +22,14 @@
       <file leaf-file-name="conv_net.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+            <state relative-caret-position="292">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
               <folding>
-                <element signature="e#218#3273#0" />
+                <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#334#479#0" />
+                <element signature="e#529#587#0" />
                 <element signature="e#575#1515#0" />
+                <element signature="e#794#849#0" />
                 <element signature="e#1709#3273#0" />
                 <element signature="e#1849#3160#0" />
                 <element signature="e#1945#2754#0" />
@@ -224,7 +225,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="18" width="1088" height="704" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -232,7 +232,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32991204" />
       <window_info id="Favorites" side_tool="true" />
@@ -286,12 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist/conv_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        <state relative-caret-position="292">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
           <folding>
-            <element signature="e#218#3273#0" />
+            <element signature="e#0#23#0" expanded="true" />
             <element signature="e#334#479#0" />
+            <element signature="e#529#587#0" />
             <element signature="e#575#1515#0" />
+            <element signature="e#794#849#0" />
             <element signature="e#1709#3273#0" />
             <element signature="e#1849#3160#0" />
             <element signature="e#1945#2754#0" />
