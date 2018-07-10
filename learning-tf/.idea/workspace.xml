@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7348149-1422-44df-afdd-c41f55e15945" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/layers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
@@ -9,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learning-tf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-tf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2_intro/mnist1/softmax_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2_intro/mnist1/softmax_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,37 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="conv_net.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist2/conv_net.py">
+      <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="49" column="54" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="54" />
+            <state relative-caret-position="497">
+              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="33" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="softmax.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2_intro/mnist1/softmax.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="softmax_classifier.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch2_intro/mnist1/softmax_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#278#362#0" />
+                <element signature="e#586#806#0" />
+                <element signature="e#667#771#0" />
+                <element signature="e#816#973#0" />
+                <element signature="e#875#951#0" />
+                <element signature="e#840#1878#0" />
+                <element signature="e#840#984#1" />
+                <element signature="e#1531#1715#0" />
+                <element signature="e#1538#1635#0" />
+                <element signature="e#1765#1878#0" />
+                <element signature="e#2468#2730#0" />
+                <element signature="e#2144#2492#0" />
               </folding>
             </state>
           </provider>
@@ -86,11 +78,14 @@
         <option value="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/conv_net.py" />
         <option value="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/get_data.py" />
         <option value="$PROJECT_DIR$/ch2_intro/mnist1/softmax_classifier.py" />
+        <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py" />
+        <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py" />
+        <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
+    <option name="x" value="170" />
     <option name="y" value="18" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
@@ -131,6 +126,12 @@
               <item name="learning-tf" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-tf" type="462c0819:PsiDirectoryNode" />
               <item name="ch4_convolutional_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="cifar10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-tf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-tf" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4_convolutional_nn" type="462c0819:PsiDirectoryNode" />
               <item name="mnist2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,6 +150,7 @@
       <recent name="$PROJECT_DIR$/ch4_convolutional_nn/mnist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch4_convolutional_nn/cifar10" />
       <recent name="$PROJECT_DIR$/ch4_convolutional_nn/mnist" />
     </key>
   </component>
@@ -164,7 +166,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.softmax_classifier">
+  <component name="RunManager" selected="Python.data_manager">
+    <configuration name="cifar_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning-tf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="conv_net" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning-tf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,7 +203,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning-tf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_convolutional_nn/mnist/get_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,17 +258,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.get_data" />
       <item itemvalue="Python.conv_net" />
       <item itemvalue="Python.mnist_cnn" />
       <item itemvalue="Python.softmax_classifier" />
+      <item itemvalue="Python.cifar_cnn" />
+      <item itemvalue="Python.data_manager" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_manager" />
+        <item itemvalue="Python.cifar_cnn" />
         <item itemvalue="Python.softmax_classifier" />
         <item itemvalue="Python.conv_net" />
         <item itemvalue="Python.mnist_cnn" />
-        <item itemvalue="Python.get_data" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="18" width="1088" height="704" extended-state="0" />
+    <frame x="170" y="18" width="1088" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -362,7 +384,7 @@
     <entry file="file://$PROJECT_DIR$/ch2_intro/mnist1/softmax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="36" selection-end-column="41" />
+          <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -371,10 +393,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch2_intro/mnist1/softmax_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="197">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/layers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="179" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#250#334#0" />
+            <element signature="e#361#518#0" />
+            <element signature="e#423#502#0" />
+            <element signature="e#558#778#0" />
+            <element signature="e#639#743#0" />
+            <element signature="e#812#1850#0" />
+            <element signature="e#812#956#1" />
+            <element signature="e#1003#1104#0" />
+            <element signature="e#1134#1455#0" />
+            <element signature="e#1503#1687#0" />
+            <element signature="e#1510#1607#0" />
+            <element signature="e#1737#1850#0" />
+            <element signature="e#1889#2067#0" />
+            <element signature="e#1917#2067#0" />
+            <element signature="e#2096#3881#0" />
+            <element signature="e#3258#3545#0" />
+            <element signature="e#3383#3492#0" />
+            <element signature="e#3586#3881#0" />
+            <element signature="e#3674#3861#0" />
+            <element signature="e#3912#5659#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#278#362#0" />
+            <element signature="e#586#806#0" />
+            <element signature="e#667#771#0" />
+            <element signature="e#816#973#0" />
+            <element signature="e#875#951#0" />
+            <element signature="e#840#1878#0" />
+            <element signature="e#840#984#1" />
+            <element signature="e#1531#1715#0" />
+            <element signature="e#1538#1635#0" />
+            <element signature="e#1765#1878#0" />
+            <element signature="e#2468#2730#0" />
+            <element signature="e#2144#2492#0" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,13 @@
 <component name="ProjectDictionaryState">
   <dictionary name="ilyarudyak">
     <words>
+      <w>cifar</w>
       <w>conv</w>
       <w>ilyarudyak</w>
       <w>minibatch</w>
       <w>mnist</w>
+      <w>ncol</w>
+      <w>nrow</w>
       <w>pred</w>
       <w>softmax</w>
     </words>
