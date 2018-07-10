@@ -5,6 +5,8 @@
       <w>ilyarudyak</w>
       <w>minibatch</w>
       <w>mnist</w>
+      <w>pred</w>
+      <w>softmax</w>
     </words>
   </dictionary>
 </component>
