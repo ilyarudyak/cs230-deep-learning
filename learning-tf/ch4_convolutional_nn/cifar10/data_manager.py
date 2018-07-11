@@ -59,6 +59,8 @@ class CifarLoader(object):
         self._i = 0
         self.images = None
         self.labels = None
+        self.num_examples = 0
+
 
     def load(self):
         # unpickle all files in source list into list of dict
@@ -76,8 +78,8 @@ class CifarLoader(object):
         # and normalize
         # why do we reshape and transpose like this?
         self.images = images.reshape(n, 3, 32, 32).transpose(0, 2, 3, 1).astype(float) / 255
-
         self.labels = one_hot(np.hstack([d["labels"] for d in data]), 10)
+        self.num_examples = self.images.shape[0]
 
         return self
 
