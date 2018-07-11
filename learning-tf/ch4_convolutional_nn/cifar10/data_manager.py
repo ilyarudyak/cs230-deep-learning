@@ -101,6 +101,25 @@ class CifarDataManager(object):
         self.test = CifarLoader(["test_batch"]).load()
         label_names_dict = unpickle("batches.meta")
         self.label_names = label_names_dict['label_names']
+        self.nclasses = 10
+
+    def display_by_class(self, nrow=10, ncol=10, size=6):
+        images_by_class = self.get_images_by_class()
+        fig, axs = plt.subplots(nrow, ncol, figsize=(size, size))
+        for i, ax in enumerate(axs.flat):
+            ax.imshow(images_by_class[i // ncol][i % ncol], cmap='binary')
+            ax.set(xticks=[], yticks=[])
+            if i % ncol == 0:
+                ax.set_ylabel(self.label_names[i // ncol], rotation='horizontal',
+                              ha='right', fontsize='medium', fontweight='bold')
+        plt.show()
+
+    def get_images_by_class(self):
+        images_by_class = []
+        for i in range(self.nclasses):
+            mask = self.train.labels[:, i] == 1
+            images_by_class.append(self.train.images[mask][:self.nclasses])
+        return images_by_class
 
 
 def create_cifar_image():
@@ -114,8 +133,5 @@ def create_cifar_image():
 
 
 if __name__ == "__main__":
-    cdm = CifarDataManager()
-    images = cdm.train.images
-    labels = cdm.train.labels
-    label_names = cdm.label_names
-    display_cifar_by_class(images, labels, label_names)
+    cifar10 = CifarDataManager()
+    cifar10.display_by_class()
