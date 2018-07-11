@@ -1,8 +1,5 @@
-import tensorflow as tf
-import numpy as np
 import time
 
-from tensorflow.examples.tutorials.mnist import input_data
 from layers import *
 from data_manager import *
 
