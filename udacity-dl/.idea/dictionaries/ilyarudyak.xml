@@ -3,6 +3,10 @@
     <words>
       <w>cifar</w>
       <w>ilyarudyak</w>
+      <w>nclasses</w>
+      <w>ncol</w>
+      <w>nrow</w>
+      <w>vals</w>
     </words>
   </dictionary>
 </component>
