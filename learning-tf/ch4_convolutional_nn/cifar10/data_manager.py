@@ -50,7 +50,7 @@ def display_cifar_by_class(images, labels, label_names, nrow=10, ncol=10, size=6
 
 class CifarLoader(object):
     """
-    Load and mange the CIFAR dataset.
+    Load and manage the CIFAR dataset.
     (for any practical use there is no reason not to use the built-in dataset handler instead)
     """
 
@@ -61,11 +61,24 @@ class CifarLoader(object):
         self.labels = None
 
     def load(self):
+        # unpickle all files in source list into list of dict
+        # dict_keys(['batch_label', 'labels', 'data', 'filenames'])
+        # data['labels'][:10] >> [6, 9, 9, 4, 1, 1, 2, 7, 8, 3]
+        # data['data'].shape >> (10000, 3072) ## 32 * 32 * 3 = 3072
         data = [unpickle(f) for f in self._source]
-        images = np.vstack([d["data"] for d in data])
-        n = len(images)
+
+        # get images from all dictionaries and stack them vertically
+        # images.shape >> (50000, 3072) ## for train data
+        images = np.vstack([d['data'] for d in data])
+        n = len(images)  # the same as images.shape[0]
+
+        # we need spatial structure for CNN so we reshaped back to 3D images
+        # and normalize
+        # why do we reshape and transpose like this?
         self.images = images.reshape(n, 3, 32, 32).transpose(0, 2, 3, 1).astype(float) / 255
+
         self.labels = one_hot(np.hstack([d["labels"] for d in data]), 10)
+
         return self
 
     def next_batch(self, batch_size):

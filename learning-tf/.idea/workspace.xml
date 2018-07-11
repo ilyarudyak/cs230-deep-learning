@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7348149-1422-44df-afdd-c41f55e15945" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/image_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/image_classification/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/image_classification/image_classification.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/image_classification/problem_unittests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
@@ -29,8 +24,8 @@
       <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-123">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="1060">
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <element signature="e#277#378#0" />
                 <element signature="e#418#638#0" />
@@ -40,10 +35,6 @@
                 <element signature="e#957#1414#0" />
                 <element signature="e#1125#1399#0" />
                 <element signature="e#1263#1399#0" />
-                <element signature="e#1448#2477#0" />
-                <element signature="e#1448#1592#1" />
-                <element signature="e#1640#1741#0" />
-                <element signature="e#1771#2078#0" />
                 <element signature="e#2126#2314#0" />
                 <element signature="e#2133#2234#0" />
                 <element signature="e#2364#2477#0" />
@@ -293,8 +284,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="170" y="18" width="1088" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -335,10 +327,6 @@
             <element signature="e#957#1414#0" />
             <element signature="e#1125#1399#0" />
             <element signature="e#1263#1399#0" />
-            <element signature="e#1448#2477#0" />
-            <element signature="e#1448#1592#1" />
-            <element signature="e#1640#1741#0" />
-            <element signature="e#1771#2078#0" />
             <element signature="e#2126#2314#0" />
             <element signature="e#2133#2234#0" />
             <element signature="e#2364#2477#0" />
@@ -432,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="1060">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <element signature="e#277#378#0" />
             <element signature="e#418#638#0" />
@@ -443,10 +431,6 @@
             <element signature="e#957#1414#0" />
             <element signature="e#1125#1399#0" />
             <element signature="e#1263#1399#0" />
-            <element signature="e#1448#2477#0" />
-            <element signature="e#1448#1592#1" />
-            <element signature="e#1640#1741#0" />
-            <element signature="e#1771#2078#0" />
             <element signature="e#2126#2314#0" />
             <element signature="e#2133#2234#0" />
             <element signature="e#2364#2477#0" />
