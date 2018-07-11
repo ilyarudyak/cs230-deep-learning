@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecaa3da-de79-48f0-b28a-b34032e6a369" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/image_classification/cifar_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_classification/layers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udacity-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udacity-dl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_classification/cifar10_runner.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/cifar10_runner.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_classification/image_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/image_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_classification/problem_unittests.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/problem_unittests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,40 +23,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="udacity-dl" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="helper.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image_classification/helper.py">
+      <file leaf-file-name="problem_unittests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_classification/problem_unittests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-863">
-              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+            <state relative-caret-position="960">
+              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
               <folding>
-                <element signature="e#362#405#1" />
-                <element signature="e#781#1955#0" />
-                <element signature="e#781#829#1" />
-                <element signature="e#907#999#0" />
-                <element signature="e#1135#1251#0" />
-                <element signature="e#2317#2372#1" />
-                <element signature="e#4128#4230#1" />
-                <element signature="e#4554#5642#0" />
+                <element signature="e#218#1083#0" />
+                <element signature="e#1121#1673#0" />
+                <element signature="e#1721#2815#0" />
+                <element signature="e#2475#2750#0" />
+                <element signature="e#2872#3444#0" />
+                <element signature="e#3501#4023#0" />
+                <element signature="e#4088#4644#0" />
+                <element signature="e#4686#5178#0" />
+                <element signature="e#5837#6137#0" />
+                <element signature="e#6173#6492#0" />
+                <element signature="e#6540#6926#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
+      <file leaf-file-name="cifar_cnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_classification/cifar_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+            <state relative-caret-position="420">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <element signature="e#166#311#1" />
-                <element signature="e#673#769#0" />
-                <element signature="e#821#926#0" />
-                <element signature="e#521#574#0" />
-                <element signature="e#835#895#0" />
-                <element signature="e#1072#1140#0" />
-                <element signature="e#1740#1853#0" />
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image_classification/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-803">
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#71#364#0" />
+                <element signature="e#71#205#1" />
+                <element signature="e#379#614#0" />
+                <element signature="e#379#510#1" />
+                <element signature="e#593#775#0" />
+                <element signature="e#593#688#1" />
+                <element signature="e#851#1351#0" />
+                <element signature="e#851#1342#2" />
+                <element signature="e#1381#1606#2" />
               </folding>
             </state>
           </provider>
@@ -76,6 +100,9 @@
         <option value="$PROJECT_DIR$/first_neural_network/my_answers.py" />
         <option value="$PROJECT_DIR$/image_classification/helper.py" />
         <option value="$PROJECT_DIR$/image_classification/data_manager.py" />
+        <option value="$PROJECT_DIR$/image_classification/cifar_cnn.py" />
+        <option value="$PROJECT_DIR$/image_classification/problem_unittests.py" />
+        <option value="$PROJECT_DIR$/image_classification/layers.py" />
       </list>
     </option>
   </component>
@@ -138,7 +165,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.layers">
+    <configuration name="cifar_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="udacity-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_classification/cifar_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="udacity-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,8 +202,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="layers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="udacity-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_classification/layers_raw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.data_manager" />
+      <item itemvalue="Python.layers" />
+      <item itemvalue="Python.cifar_cnn" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.layers" />
+        <item itemvalue="Python.cifar_cnn" />
         <item itemvalue="Python.data_manager" />
       </list>
     </recent_temporary>
@@ -183,12 +253,13 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4516129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32996324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -196,7 +267,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -245,27 +315,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="e#166#311#1" />
-            <element signature="e#673#769#0" />
-            <element signature="e#821#926#0" />
-            <element signature="e#521#574#0" />
-            <element signature="e#835#895#0" />
-            <element signature="e#1072#1140#0" />
-            <element signature="e#1740#1853#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_classification/helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        <state relative-caret-position="116">
+          <caret line="113" column="30" lean-forward="true" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
           <folding>
+            <element signature="e#145#293#0" />
+            <element signature="e#145#191#1" />
             <element signature="e#362#405#1" />
             <element signature="e#781#1955#0" />
             <element signature="e#781#829#1" />
@@ -274,6 +330,62 @@
             <element signature="e#2317#2372#1" />
             <element signature="e#4128#4230#1" />
             <element signature="e#4554#5642#0" />
+            <element signature="e#5166#5642#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/cifar_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/problem_unittests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="e#218#1083#0" />
+            <element signature="e#1121#1673#0" />
+            <element signature="e#1721#2815#0" />
+            <element signature="e#2475#2750#0" />
+            <element signature="e#2872#3444#0" />
+            <element signature="e#3501#4023#0" />
+            <element signature="e#4088#4644#0" />
+            <element signature="e#4686#5178#0" />
+            <element signature="e#5837#6137#0" />
+            <element signature="e#6173#6492#0" />
+            <element signature="e#6540#6926#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#71#364#0" />
+            <element signature="e#71#205#1" />
+            <element signature="e#379#614#0" />
+            <element signature="e#379#510#1" />
+            <element signature="e#593#775#0" />
+            <element signature="e#593#688#1" />
+            <element signature="e#851#1351#0" />
+            <element signature="e#851#1342#2" />
+            <element signature="e#1381#1606#2" />
           </folding>
         </state>
       </provider>

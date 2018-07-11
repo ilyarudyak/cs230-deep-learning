@@ -2,10 +2,12 @@
   <dictionary name="ilyarudyak">
     <words>
       <w>cifar</w>
+      <w>conv</w>
       <w>ilyarudyak</w>
       <w>nclasses</w>
       <w>ncol</w>
       <w>nrow</w>
+      <w>relu</w>
       <w>vals</w>
     </words>
   </dictionary>

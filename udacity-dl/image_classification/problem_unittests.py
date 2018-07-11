@@ -5,8 +5,8 @@ import random
 from unittest.mock import MagicMock
 
 
-def _print_success_message():
-    print('Tests Passed')
+def _print_success_message(text=""):
+    print(text + ' Tests Passed ...')
 
 
 def test_folder_path(cifar10_dataset_folder_path):
@@ -145,7 +145,7 @@ def test_flatten(flatten):
     assert flat_out.get_shape().as_list() == [None, 10*30*6],\
         'Incorrect Shape.  Found {} shape'.format(flat_out.get_shape().as_list())
 
-    _print_success_message()
+    _print_success_message('Flatten')
 
 
 def test_fully_conn(fully_conn):
@@ -157,7 +157,7 @@ def test_fully_conn(fully_conn):
     assert fc_out.get_shape().as_list() == [None, 40],\
         'Incorrect Shape.  Found {} shape'.format(fc_out.get_shape().as_list())
 
-    _print_success_message()
+    _print_success_message('Fully Connected')
 
 
 def test_output(output):
@@ -169,7 +169,7 @@ def test_output(output):
     assert output_out.get_shape().as_list() == [None, 40],\
         'Incorrect Shape.  Found {} shape'.format(output_out.get_shape().as_list())
 
-    _print_success_message()
+    _print_success_message('Output')
 
 
 def test_conv_net(conv_net):
