@@ -29,7 +29,7 @@ def neural_net_keep_prob_input():
     return tf.placeholder(tf.float32, name='keep_prob')
 
 
-def conv2d_maxpool(x_tensor, parameters):
+def conv2d_maxpool2(x_tensor, parameters):
     conv_num_outputs, conv_ksize, conv_strides, pool_ksize, pool_strides = parameters
 
     weight = tf.Variable(tf.random_normal([conv_ksize[0], conv_ksize[1], \
@@ -48,6 +48,21 @@ def conv2d_maxpool(x_tensor, parameters):
                               [1, pool_strides[0], pool_strides[1], 1], padding='SAME')
 
     return x_tensor
+
+
+def conv2d_maxpool(x_tensor, parameters):
+    conv_num_outputs, conv_ksize, conv_strides, pool_ksize, pool_strides = parameters
+    conv2d_layer = tf.contrib.layers.conv2d(x_tensor, conv_num_outputs,
+                                            kernel_size=conv_ksize,
+                                            stride=conv_strides)
+    maxpool_layer = tf.contrib.layers.max_pool2d(conv2d_layer,
+                                                 kernel_size=pool_ksize,
+                                                 stride=pool_strides,
+                                                 padding='SAME')
+
+    # maxpool_layer = tf.nn.max_pool(conv2d_layer, [1, pool_ksize[0], pool_ksize[1], 1], \
+    #                           [1, pool_strides[0], pool_strides[1], 1], padding='SAME')
+    return maxpool_layer
 
 
 def flatten(x_tensor):

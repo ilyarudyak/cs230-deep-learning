@@ -27,8 +27,8 @@ class ConvNetCIFAR10:
 
         self.num_outputs = self.n_classes
 
-        self.parameters = [self.conv_num_outputs, self.conv_ksize,
-                           self.conv_strides, self.pool_ksize, self.pool_strides]
+        self.parameters = [self.conv_num_outputs, self.conv_ksize, self.conv_strides,
+                           self.pool_ksize, self.pool_strides]
 
     def build_conv_net(self):
         conv2d_maxpool_layer_1 = conv2d_maxpool(self.x, self.parameters)
