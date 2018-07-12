@@ -60,8 +60,6 @@ def conv2d_maxpool(x_tensor, parameters):
                                                  stride=pool_strides,
                                                  padding='SAME')
 
-    # maxpool_layer = tf.nn.max_pool(conv2d_layer, [1, pool_ksize[0], pool_ksize[1], 1], \
-    #                           [1, pool_strides[0], pool_strides[1], 1], padding='SAME')
     return maxpool_layer
 
 
