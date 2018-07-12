@@ -39,7 +39,7 @@ def neural_net_keep_prob_input():
     return tf.placeholder(tf.float32, name='keep_prob')
 
 
-def conv2d_maxpool(x_tensor, conv_num_outputs, conv_ksize, conv_strides, pool_ksize, pool_strides):
+def conv2d_relu_maxpool(x_tensor, conv_num_outputs, conv_ksize, conv_strides, pool_ksize, pool_strides):
     """
     Apply convolution then max pooling to x_tensor
     :param x_tensor: TensorFlow Tensor
@@ -50,7 +50,12 @@ def conv2d_maxpool(x_tensor, conv_num_outputs, conv_ksize, conv_strides, pool_ks
     :param pool_strides: Stride 2-D Tuple for pool
     : return: A tensor that represents convolution and max pooling of x_tensor
     """
-    pass
+    W = weight_variable(shape)
+    b = bias_variable([shape[3]])
+    conv2d = tf.nn.conv2d(x_tensor, W, conv_strides)
+    conv2d_relu = tf.nn.relu(conv2d + b)
+    max_pool = tf.nn.max_pool(conv2d_relu, pool_ksize, pool_strides)
+    return max_pool
 
 
 def flatten(x_tensor):
