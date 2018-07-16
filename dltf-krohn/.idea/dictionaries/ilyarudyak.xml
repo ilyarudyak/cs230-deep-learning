@@ -2,6 +2,9 @@
   <dictionary name="ilyarudyak">
     <words>
       <w>caffe</w>
+      <w>keras</w>
+      <w>preprocess</w>
+      <w>softmax</w>
       <w>tensorflow</w>
     </words>
   </dictionary>

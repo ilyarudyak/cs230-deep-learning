@@ -7,7 +7,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import SGD
 
-from fully_connected_nn.shallow_nn_mnist import preprocess_data
+from shallow_nn_mnist import preprocess_data
 
 
 ################################################################

@@ -18,11 +18,13 @@ def plot_digits():
     size, figsize = 8, 6
     digits, labels = X_train[:size**2], y_train[:size**2]
 
-    fig, axs = plt.subplots(1, size, figsize=(figsize, figsize))
-    fig.suptitle(f'MNIST dataset: first {size**2} images')
+    fig, axs = plt.subplots(8, size, figsize=(figsize, figsize))
+    plt.subplots_adjust(hspace=.8)
+    fig.suptitle(f'MNIST dataset: first {size**2} images with labels')
     for image, ax in enumerate(axs.flat):
         ax.imshow(digits[image], cmap='gray')
         ax.set(xticks=[], yticks=[])
+
         ax.set_title(str(labels[image]))
     plt.show()
 
@@ -45,14 +47,24 @@ def preprocess_data():
 
 def fit_shallow_nn(epochs=1):
     X_train, y_train, X_test, y_test = preprocess_data()
+
+    # There are two main types of models available in Keras:
+    # the Sequential model, and the Model class used with the functional API.
+    # The Sequential model is a linear stack of layers.
+    # You can create a Sequential model by passing
+    # a list of layer instances to the constructor.
     model = Sequential()
+
+    # build the model
     model.add(Dense(64, activation='sigmoid', input_shape=(784,)))
     model.add(Dense(10, activation='softmax'))
     model.compile(loss='mean_squared_error', optimizer=SGD(lr=0.01), metrics=['accuracy'])
+
+    # train the model
     model.fit(X_train, y_train, batch_size=128, epochs=epochs,
-              verbose=1, validation_data=(X_test, y_test))
+              verbose=2, validation_data=(X_test, y_test))
 
 
 if __name__ == '__main__':
     np.random.seed(42)
-    fit_shallow_nn(10)
+    fit_shallow_nn(epochs=10)
