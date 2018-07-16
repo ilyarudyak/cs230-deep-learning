@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f95730-0ae6-4e41-9bda-1f8a799529d4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/convolutional_nn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" afterDir="false" />
@@ -21,23 +23,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="deep_nn_mnist.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="deep_nn_mnist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shallow_nn_mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
+      <file leaf-file-name="convolutional_nn_mnist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="208">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
-                <element signature="e#224#324#0" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,12 +66,13 @@
         <option value="$PROJECT_DIR$/dl_libraries.md" />
         <option value="$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py" />
         <option value="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" />
+        <option value="$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
-    <option name="y" value="19" />
+    <option name="x" value="37" />
+    <option name="y" value="17" />
     <option name="width" value="1099" />
     <option name="height" value="695" />
   </component>
@@ -81,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,18 +95,22 @@
             <path>
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
+              <item name="convolutional_nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
               <item name="fully_connected_nn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
-              <item name="tflow" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,7 +134,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deep_nn_mnist">
+  <component name="RunManager" selected="Python.convolutional_nn_mnist">
+    <configuration name="convolutional_nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dltf-krohn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convolutional_nn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="deep_nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dltf-krohn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,9 +211,11 @@
       <item itemvalue="Python.shallow-nn-mnist" />
       <item itemvalue="Python.deep_nn_mnist" />
       <item itemvalue="Python.shallow_nn_mnist" />
+      <item itemvalue="Python.convolutional_nn_mnist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.convolutional_nn_mnist" />
         <item itemvalue="Python.deep_nn_mnist" />
         <item itemvalue="Python.shallow_nn_mnist" />
         <item itemvalue="Python.shallow-nn-mnist" />
@@ -208,22 +236,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="19" width="1099" height="695" extended-state="0" />
+    <frame x="37" y="17" width="1099" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49331352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32986626" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49331352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -234,13 +262,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#224#324#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -248,24 +304,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#224#324#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/datasets.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="320">
             <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -285,23 +338,28 @@
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/mnist_plot_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fully_connected_nn/mnist_plot_labels_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fully_connected_nn/mnist_plot_labels_2.png" />
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="e#224#324#0" />
-          </folding>
+        <state relative-caret-position="386">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convolutional_nn/convolutional_nn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
