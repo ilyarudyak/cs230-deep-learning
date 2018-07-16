@@ -20,7 +20,7 @@ def plot_digits():
 
     fig, axs = plt.subplots(8, size, figsize=(figsize, figsize))
     plt.subplots_adjust(hspace=.8)
-    fig.suptitle(f'MNIST dataset: first {size**2} images with labels')
+    fig.suptitle('MNIST dataset: first {} images with labels'.format(size**2))
     for image, ax in enumerate(axs.flat):
         ax.imshow(digits[image], cmap='gray')
         ax.set(xticks=[], yticks=[])

@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" afterDir="false" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="deep_nn_mnist.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -198,9 +196,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="19" width="1099" height="695" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -307,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
