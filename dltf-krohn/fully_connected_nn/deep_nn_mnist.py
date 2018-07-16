@@ -15,7 +15,8 @@ from shallow_nn_mnist import preprocess_data
 # (2) add 1 more hidden layer
 # (3) changed loss to categorical_crossentropy
 # (4) changed learning rate to .1
-# accuracy 0.9711 after 10 epochs
+# accuracy 0.9721 after 10 epochs
+# and doesn't change significantly if we run up to 200 epochs
 ################################################################
 def fit_deep_nn(epochs=1):
     X_train, y_train, X_test, y_test = preprocess_data()
@@ -30,4 +31,4 @@ def fit_deep_nn(epochs=1):
 
 if __name__ == '__main__':
     np.random.seed(42)
-    fit_deep_nn(10)
+    fit_deep_nn(200)

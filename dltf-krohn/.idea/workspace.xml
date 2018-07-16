@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" afterDir="false" />
@@ -24,8 +25,20 @@
       <file leaf-file-name="deep_nn_mnist.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shallow_nn_mnist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
+              <folding>
+                <element signature="e#224#324#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,8 +209,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="19" width="1099" height="695" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -226,12 +240,6 @@
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#224#324#0" />
-            <element signature="e#350#836#0" />
-            <element signature="e#705#821#0" />
-            <element signature="e#866#1279#0" />
-            <element signature="e#1316#2053#0" />
-            <element signature="e#1374#1431#0" />
-            <element signature="e#2099#2138#0" />
           </folding>
         </state>
       </provider>
@@ -242,12 +250,6 @@
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#224#324#0" />
-            <element signature="e#350#836#0" />
-            <element signature="e#705#821#0" />
-            <element signature="e#866#1279#0" />
-            <element signature="e#1316#2053#0" />
-            <element signature="e#1374#1431#0" />
-            <element signature="e#2099#2138#0" />
           </folding>
         </state>
       </provider>
@@ -288,24 +290,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/shallow_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="508">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="e#224#324#0" />
-            <element signature="e#350#836#0" />
-            <element signature="e#705#821#0" />
-            <element signature="e#866#1279#0" />
-            <element signature="e#1316#2053#0" />
-            <element signature="e#1374#1431#0" />
-            <element signature="e#2099#2138#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_nn/deep_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
