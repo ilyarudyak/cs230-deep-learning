@@ -28,12 +28,15 @@ def preprocess_data():
 
 def fit_convolutional_nn(epochs=1):
     model = Sequential()
+
     model.add(Dense(64, activation='relu', input_shape=(784,)))
     model.add(BatchNormalization())
     model.add(Dropout(0.5))
+
     model.add(Dense(64, activation='relu'))
     model.add(BatchNormalization())
     model.add(Dropout(0.5))
+
     # model.add(Dense(64, activation='relu'))
     # model.add(BatchNormalization())
     # model.add(Dropout(0.5))

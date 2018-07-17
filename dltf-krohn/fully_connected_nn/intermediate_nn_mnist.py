@@ -18,7 +18,7 @@ from shallow_nn_mnist import preprocess_data
 # accuracy 0.9721 after 10 epochs
 # and doesn't change significantly if we run up to 200 epochs
 ################################################################
-def fit_deep_nn(epochs=1):
+def fit_interm_nn(epochs=1):
     X_train, y_train, X_test, y_test = preprocess_data()
     model = Sequential()
     model.add(Dense(64, activation='relu', input_shape=(784,)))
@@ -31,4 +31,4 @@ def fit_deep_nn(epochs=1):
 
 if __name__ == '__main__':
     np.random.seed(42)
-    fit_deep_nn(200)
+    fit_interm_nn(200)
