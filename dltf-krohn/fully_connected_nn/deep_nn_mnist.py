@@ -27,6 +27,7 @@ def preprocess_data():
 
 
 def fit_deep_nn(epochs=1):
+    X_train, y_train, X_test, y_test = preprocess_data()
     model = Sequential()
 
     model.add(Dense(64, activation='relu', input_shape=(784,)))
@@ -50,5 +51,4 @@ def fit_deep_nn(epochs=1):
 
 if __name__ == '__main__':
     np.random.seed(42)
-    X_train, y_train, X_test, y_test = preprocess_data()
     fit_deep_nn(epochs=1)
