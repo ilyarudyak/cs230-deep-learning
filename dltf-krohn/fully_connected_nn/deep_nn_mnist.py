@@ -26,6 +26,8 @@ def preprocess_data():
     return X_train, y_train, X_test, y_test
 
 
+# val_acc = .9695 after 200 epochs
+# not better than for intermediate NN
 def fit_deep_nn(epochs=1):
     X_train, y_train, X_test, y_test = preprocess_data()
     model = Sequential()
