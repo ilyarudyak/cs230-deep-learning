@@ -4,6 +4,7 @@
       <w>caffe</w>
       <w>crossentropy</w>
       <w>keras</w>
+      <w>lenet</w>
       <w>preprocess</w>
       <w>relu</w>
       <w>softmax</w>

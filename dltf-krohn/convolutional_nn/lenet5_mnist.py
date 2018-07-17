@@ -1,6 +1,7 @@
 import numpy as np
 
 import keras
+from keras.callbacks import TensorBoard
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
@@ -43,7 +44,9 @@ def fit_lenet5(epochs=1):
     model.add(Dense(n_classes, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    model.fit(X_train, y_train, batch_size=128, epochs=epochs, verbose=2, validation_data=(X_test, y_test))
+    tensorbrd = TensorBoard('logs/lenet5')
+    model.fit(X_train, y_train, batch_size=128, epochs=epochs,
+              verbose=1, validation_data=(X_test, y_test), callbacks=[tensorbrd])
 
 
 if __name__ == '__main__':

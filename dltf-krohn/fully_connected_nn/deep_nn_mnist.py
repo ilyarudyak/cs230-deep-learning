@@ -6,8 +6,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout # new!
 from keras.layers.normalization import BatchNormalization # new!
-from keras import regularizers # new!
-from keras.optimizers import SGD
+from keras.callbacks import TensorBoard
 
 
 def preprocess_data():
@@ -47,6 +46,7 @@ def fit_deep_nn(epochs=1):
 
     model.compile(loss='categorical_crossentropy',
                   optimizer='adam', metrics=['accuracy'])
+
     model.fit(X_train, y_train, batch_size=128, epochs=epochs,
               verbose=2, validation_data=(X_test, y_test))
 
