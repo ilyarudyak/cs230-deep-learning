@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecaa3da-de79-48f0-b28a-b34032e6a369" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dogs_breed_classifier/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
@@ -11,8 +12,8 @@
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-tf/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification/cifar_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/cifar_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udacity-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udacity-dl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,53 +26,7 @@
     <favorites_list name="udacity-dl" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image_classification/layers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-              <folding>
-                <element signature="e#105#336#0" />
-                <element signature="e#105#239#1" />
-                <element signature="e#382#586#0" />
-                <element signature="e#382#513#1" />
-                <element signature="e#627#778#0" />
-                <element signature="e#627#722#1" />
-                <element signature="e#1443#1747#0" />
-                <element signature="e#103#505#0" />
-                <element signature="e#103#393#1" />
-                <element signature="e#398#416#0" />
-                <element signature="e#624#1005#0" />
-                <element signature="e#624#905#1" />
-                <element signature="e#1034#1056#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar_cnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_classification/cifar_cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="e#200#491#0" />
-                <element signature="e#2060#4122#0" />
-                <element signature="e#2202#4009#0" />
-                <element signature="e#2298#3593#0" />
-                <element signature="e#2623#3362#0" />
-                <element signature="e#2674#2888#0" />
-                <element signature="e#2966#3186#0" />
-                <element signature="e#3416#3592#0" />
-                <element signature="e#3781#4008#0" />
-                <element signature="e#3816#3970#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +52,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="37" />
+    <option name="x" value="87" />
+    <option name="y" value="38" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
   </component>
@@ -110,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +76,12 @@
             <path>
               <item name="udacity-dl" type="b2602c69:ProjectViewProjectNode" />
               <item name="udacity-dl" type="462c0819:PsiDirectoryNode" />
-              <item name="first_neural_network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udacity-dl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udacity-dl" type="462c0819:PsiDirectoryNode" />
-              <item name="image_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="dogs_breed_classifier" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,22 +187,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="37" width="1088" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="87" y="38" width="1088" height="704" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22794117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4516129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5777126" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32996324" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4516129" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -263,6 +212,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#336#0" />
+            <element signature="e#105#239#1" />
+            <element signature="e#382#586#0" />
+            <element signature="e#382#513#1" />
+            <element signature="e#627#778#0" />
+            <element signature="e#627#722#1" />
+            <element signature="e#828#1578#0" />
+            <element signature="e#1627#2210#0" />
+            <element signature="e#2240#2512#0" />
+            <element signature="e#2558#3037#0" />
+            <element signature="e#3079#3448#0" />
+            <element signature="e#3079#3360#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_classification/problem_unittests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3340">
@@ -274,18 +251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#200#491#0" />
-            <element signature="e#2060#4122#0" />
-            <element signature="e#2202#4009#0" />
-            <element signature="e#2298#3593#0" />
-            <element signature="e#2623#3362#0" />
-            <element signature="e#2674#2888#0" />
-            <element signature="e#2966#3186#0" />
-            <element signature="e#3416#3592#0" />
-            <element signature="e#3781#4008#0" />
-            <element signature="e#3816#3970#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -293,12 +258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#92#172#0" />
-            <element signature="e#205#276#0" />
-            <element signature="e#1109#1848#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -312,13 +271,12 @@
             <element signature="e#382#513#1" />
             <element signature="e#627#778#0" />
             <element signature="e#627#722#1" />
-            <element signature="e#1443#1747#0" />
-            <element signature="e#103#505#0" />
-            <element signature="e#103#393#1" />
-            <element signature="e#398#416#0" />
-            <element signature="e#624#1005#0" />
-            <element signature="e#624#905#1" />
-            <element signature="e#1034#1056#0" />
+            <element signature="e#828#1578#0" />
+            <element signature="e#1627#2210#0" />
+            <element signature="e#2240#2512#0" />
+            <element signature="e#2558#3037#0" />
+            <element signature="e#3079#3448#0" />
+            <element signature="e#3079#3360#1" />
           </folding>
         </state>
       </provider>
@@ -372,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_classification/problem_unittests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -390,38 +341,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="14" selection-start-line="14" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#92#172#0" />
-            <element signature="e#205#276#0" />
-            <element signature="e#1109#1848#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_classification/cifar_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#200#491#0" />
-            <element signature="e#2060#4122#0" />
-            <element signature="e#2202#4009#0" />
-            <element signature="e#2298#3593#0" />
-            <element signature="e#2623#3362#0" />
-            <element signature="e#2674#2888#0" />
-            <element signature="e#2966#3186#0" />
-            <element signature="e#3416#3592#0" />
-            <element signature="e#3781#4008#0" />
-            <element signature="e#3816#3970#0" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_classification/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_classification/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+        <state relative-caret-position="420">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding>
             <element signature="e#105#336#0" />
             <element signature="e#105#239#1" />
@@ -429,16 +369,18 @@
             <element signature="e#382#513#1" />
             <element signature="e#627#778#0" />
             <element signature="e#627#722#1" />
-            <element signature="e#1443#1747#0" />
-            <element signature="e#103#505#0" />
-            <element signature="e#103#393#1" />
-            <element signature="e#398#416#0" />
-            <element signature="e#624#1005#0" />
-            <element signature="e#624#905#1" />
-            <element signature="e#1034#1056#0" />
+            <element signature="e#828#1578#0" />
+            <element signature="e#1627#2210#0" />
+            <element signature="e#2240#2512#0" />
+            <element signature="e#2558#3037#0" />
+            <element signature="e#3079#3448#0" />
+            <element signature="e#3079#3360#1" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogs_breed_classifier/CODEOWNERS">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

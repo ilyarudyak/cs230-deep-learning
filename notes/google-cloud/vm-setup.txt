@@ -1,0 +1,110 @@
+    1  ls
+    2  sudo apt-get update
+    3  sudo apt-get -y upgrade
+    4  python3 -V
+    5  sudo apt-get install -y python3-pip
+    6  sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+    7  ls
+    8  sudo apt-get install -y python3-venv
+    9  history
+   10  virtualenv --version
+   11  pip3 --version
+   
+   12  pip3 install virtualenv
+   may be better: sudo apt install virtualenv
+   see here: https://stackoverflow.com/questions/37304836/ubuntu-says-virtualenv-is-not-installed-but-pip-says-it-is
+
+   13  virtualenv --version
+   14  pip3 install --upgrade pip
+   15  git clone https://github.com/ilyarudyak/cs230-deep-learning.git
+   16  ls
+   17  cd cs230-deep-learning/
+   18  ls
+   19  vim requirements.txt
+   20  cat requirements.txt 
+   21  virtualenv -p python3 .env
+   22  ls
+   23  ls -a
+   24  source .env/bin/activate
+   25  pip install -r requirements.txt
+   26  pip list
+   27  ls
+   28  cd dltf-krohn/
+   29  ls
+   30  cd fully_connected_nn/
+   31  ls
+   32  python shallow_nn_mnist.py 
+   33  sudo apt-get install python3-tk
+   34  python shallow_nn_mnist.py 
+   35  cd ..
+   36  ls
+   37  cd convolutional_nn/
+   38  ls
+   39  cat lenet5_mnist.py 
+   40  python lenet5_mnist.py 
+   41  vim lenet5_mnist.py 
+   42  cat lenet5_mnist.py 
+   43  python lenet5_mnist.py 
+   44  ls
+   45  git status
+   46  git checkout lenet5_mnist.py
+   47  git status
+   48  git pull
+   49  ls
+   50  python lenet5_mnist.py 
+   51  vim lenet5_mnist.py 
+   52  python lenet5_mnist.py 
+   53  ls
+   54  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   55  ls
+   56  ls logs
+   57  ls logs/lenet5/
+   58  ls
+   59  ls logs/lenet5/
+   60  ls
+   61  ps -ef
+   62  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   63  python lenet5_mnist.py 
+   64  history
+   65  cd 
+   66  cd cs230-deep-learning/
+   67  source .env/bin/activate
+   68  cd dltf-krohn/convolutional_nn/
+   69  python lenet5_mnist.py 
+   70  ls
+   71  ls cs230-deep-learning/dltf-krohn/convolutional_nn/
+   72  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   73  ls logs/
+   74  ls logs/lenet5/
+   75  cd logs/lenet5/
+   76  pwd
+   77  exit
+   78  history
+   79  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   80  ls
+   81  cat lenet_run.txt
+   82  cat lenet_run.txt | grep epoch
+   83  cat lenet_run.txt | grep Epoch
+   84  top
+   85  top | grep mark
+   86  cat lenet_run.txt | grep Epoch
+   87  top | grep mark
+   88  cat lenet_run.txt | grep Epoch
+   89  top | grep mark
+   90  cd cs230-deep-learning
+   91  source .env/bin/activate
+   92  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   93  history
+   94  python lenet5_mnist.py > lenet_run.txt
+   95  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   96  cd ..
+   97  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+   98  ls
+   99  python lenet5_mnist.py > lenet_run.txt
+  100  history
+  101  cd cs230-deep-learning/dltf-krohn/convolutional_nn/
+  102  ls
+  103  cat lenet_run.txt | grep Epoch
+  104  cat lenet_run.txt 
+  105  top
+  106  history

@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7348149-1422-44df-afdd-c41f55e15945" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/image_classification/data_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
+      <file leaf-file-name="cifar_cnn_small.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="136" column="30" lean-forward="true" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+            <state relative-caret-position="160">
+              <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#166#250#0" />
-                <element signature="e#277#378#0" />
-                <element signature="e#418#638#0" />
-                <element signature="e#499#603#0" />
-                <element signature="e#1263#1399#0" />
-                <element signature="e#1448#3135#0" />
-                <element signature="e#1448#1593#1" />
+                <element signature="e#89#3779#0" />
+                <element signature="e#440#497#0" />
+                <element signature="e#713#762#0" />
+                <element signature="e#1955#3250#0" />
+                <element signature="e#2280#3019#0" />
+                <element signature="e#2331#2545#0" />
+                <element signature="e#2623#2843#0" />
+                <element signature="e#3073#3249#0" />
               </folding>
             </state>
           </provider>
@@ -77,12 +76,14 @@
         <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_medium.py" />
         <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_large.py" />
         <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py" />
+        <option value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/layers.py" />
+        <option value="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="31" />
+    <option name="x" value="94" />
+    <option name="y" value="35" />
     <option name="width" value="1088" />
     <option name="height" value="704" />
   </component>
@@ -94,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,25 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_manager">
-    <configuration name="cifar_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learning-tf" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.mnist_cnn_keras">
     <configuration name="cifar_cnn_large" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning-tf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,20 +236,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="mnist_cnn_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning-tf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4_convolutional_nn/mnist2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.cifar_cnn" />
       <item itemvalue="Python.data_manager" />
       <item itemvalue="Python.cifar_cnn_small" />
       <item itemvalue="Python.cifar_cnn_medium" />
       <item itemvalue="Python.cifar_cnn_large" />
+      <item itemvalue="Python.mnist_cnn_keras" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mnist_cnn_keras" />
         <item itemvalue="Python.data_manager" />
         <item itemvalue="Python.cifar_cnn_large" />
         <item itemvalue="Python.cifar_cnn_medium" />
         <item itemvalue="Python.cifar_cnn_small" />
-        <item itemvalue="Python.cifar_cnn" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="31" width="1088" height="704" extended-state="0" />
+    <frame x="94" y="35" width="1088" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -292,14 +293,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -315,33 +316,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="e#195#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="159" column="39" selection-start-line="159" selection-start-column="39" selection-end-line="159" selection-end-column="39" />
-          <folding>
-            <element signature="e#277#361#0" />
-            <element signature="e#388#545#0" />
-            <element signature="e#450#529#0" />
-            <element signature="e#585#805#0" />
-            <element signature="e#666#770#0" />
-            <element signature="e#839#1877#0" />
-            <element signature="e#839#983#1" />
-            <element signature="e#1030#1131#0" />
-            <element signature="e#1161#1482#0" />
-            <element signature="e#1530#1714#0" />
-            <element signature="e#1537#1634#0" />
-            <element signature="e#1764#1877#0" />
-            <element signature="e#1916#2094#0" />
-            <element signature="e#1944#2094#0" />
-            <element signature="e#2123#3908#0" />
-            <element signature="e#3285#3572#0" />
-            <element signature="e#3410#3519#0" />
-            <element signature="e#3613#3908#0" />
-            <element signature="e#3701#3888#0" />
-            <element signature="e#5719#6067#0" />
-            <element signature="e#6101#6144#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,16 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1780">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#166#250#0" />
-            <element signature="e#277#378#0" />
-            <element signature="e#418#638#0" />
-            <element signature="e#499#603#0" />
-            <element signature="e#1263#1399#0" />
-            <element signature="e#1448#3135#0" />
-            <element signature="e#1448#1593#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,9 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/layers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar10_examples_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -449,40 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="75" column="31" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="159" column="39" selection-start-line="159" selection-start-column="39" selection-end-line="159" selection-end-column="39" />
-          <folding>
-            <element signature="e#277#361#0" />
-            <element signature="e#388#545#0" />
-            <element signature="e#450#529#0" />
-            <element signature="e#585#805#0" />
-            <element signature="e#666#770#0" />
-            <element signature="e#839#1877#0" />
-            <element signature="e#839#983#1" />
-            <element signature="e#1030#1131#0" />
-            <element signature="e#1161#1482#0" />
-            <element signature="e#1530#1714#0" />
-            <element signature="e#1537#1634#0" />
-            <element signature="e#1764#1877#0" />
-            <element signature="e#1916#2094#0" />
-            <element signature="e#1944#2094#0" />
-            <element signature="e#2123#3908#0" />
-            <element signature="e#3285#3572#0" />
-            <element signature="e#3410#3519#0" />
-            <element signature="e#3613#3908#0" />
-            <element signature="e#3701#3888#0" />
-            <element signature="e#5719#6067#0" />
-            <element signature="e#6101#6144#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,17 +454,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="136" column="30" lean-forward="true" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+        <state relative-caret-position="617">
+          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#166#250#0" />
-            <element signature="e#277#378#0" />
-            <element signature="e#418#638#0" />
-            <element signature="e#499#603#0" />
-            <element signature="e#1263#1399#0" />
-            <element signature="e#1448#3135#0" />
-            <element signature="e#1448#1593#1" />
+            <element signature="e#195#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4_convolutional_nn/cifar10/cifar_cnn_small.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#89#3779#0" />
+            <element signature="e#440#497#0" />
+            <element signature="e#713#762#0" />
+            <element signature="e#1955#3250#0" />
+            <element signature="e#2280#3019#0" />
+            <element signature="e#2331#2545#0" />
+            <element signature="e#2623#2843#0" />
+            <element signature="e#3073#3249#0" />
           </folding>
         </state>
       </provider>

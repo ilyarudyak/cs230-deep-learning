@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="ilyarudyak">
     <words>
+      <w>alexnet</w>
       <w>caffe</w>
       <w>crossentropy</w>
       <w>keras</w>
@@ -8,6 +9,8 @@
       <w>preprocess</w>
       <w>relu</w>
       <w>softmax</w>
+      <w>tanh</w>
+      <w>tensorbrd</w>
       <w>tensorflow</w>
     </words>
   </dictionary>
