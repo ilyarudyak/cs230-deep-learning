@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62f95730-0ae6-4e41-9bda-1f8a799529d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/convolutional_nn/alexnet_oxford_flowers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/dogs_breed_classifier/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course1_nn_dl/week3_shallow_nn/planar_classifier_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convolutional_nn/logs/lenet5/events.out.tfevents.1531867969.Ilyas-MacBook-Pro.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hands-on-geron/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learning-tf/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-tf/ch4_convolutional_nn/mnist2/mnist_cnn_keras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/udacity-dl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udacity-dl/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62f95730-0ae6-4e41-9bda-1f8a799529d4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +14,8 @@
       <file leaf-file-name="alexnet_oxford_flowers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/convolutional_nn/alexnet_oxford_flowers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -94,6 +77,12 @@
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
               <item name="convolutional_nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
+              <item name="convolutional_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="17flowers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
@@ -257,14 +246,14 @@
     <frame x="76" y="19" width="1099" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49331352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49331352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32986626" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6894502" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,10 +411,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/convolutional_nn/17flowers/jpg/1/image_0081.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/convolutional_nn/alexnet_oxford_flowers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="308">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

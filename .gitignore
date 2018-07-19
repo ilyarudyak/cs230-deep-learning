@@ -204,6 +204,14 @@ venv.bak/
 
 # pickle files
 *.p
+*.pkl
+
+# zip files 
+*.tgz
+
+# image files
+*.jpg
+
 
 
 # End of https://www.gitignore.io/api/macos,python,pycharm
