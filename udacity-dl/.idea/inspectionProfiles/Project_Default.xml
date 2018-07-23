@@ -12,6 +12,7 @@
       <option name="ignoredErrors">
         <list>
           <option value="N803" />
+          <option value="N802" />
         </list>
       </option>
     </inspection_tool>
@@ -21,6 +22,7 @@
           <option value="conv_num_outputs" />
           <option value="conv_ksize" />
           <option value="conv_strides" />
+          <option value="data_manager.get_dog_files_short" />
         </list>
       </option>
     </inspection_tool>
