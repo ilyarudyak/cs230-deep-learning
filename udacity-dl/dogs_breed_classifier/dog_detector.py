@@ -6,6 +6,7 @@ from keras.applications.resnet50 import preprocess_input, decode_predictions
 from tqdm import tqdm
 
 from data_manager import get_dog_files_short
+from imagenet_dictionary import imagenet_dict
 
 
 def path_to_tensor(img_path):
@@ -30,7 +31,7 @@ def ResNet50_predict_labels(img_path):
 
 def dog_detector(img_path):
     prediction = ResNet50_predict_labels(img_path)
-    print(prediction)
+    print(img_path, imagenet_dict[prediction])
     return 151 <= prediction <= 268
 
 
