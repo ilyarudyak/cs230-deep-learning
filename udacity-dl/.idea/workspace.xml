@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecaa3da-de79-48f0-b28a-b34032e6a369" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
@@ -1366,9 +1365,9 @@
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/9/image_0799.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/9/image_0800.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogs_breed_classifier/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs_breed_classifier/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1385,8 +1384,8 @@
       <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dogs_breed_classifier/data_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="337">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -1397,8 +1396,11 @@
       <file leaf-file-name="dog_detector.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-123">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="397">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1425,8 +1427,8 @@
         <option value="$PROJECT_DIR$/image_classification/layers_raw.py" />
         <option value="$PROJECT_DIR$/image_classification/cifar_cnn.py" />
         <option value="$PROJECT_DIR$/image_classification/layers.py" />
-        <option value="$PROJECT_DIR$/dogs_breed_classifier/data_manager.py" />
         <option value="$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py" />
+        <option value="$PROJECT_DIR$/dogs_breed_classifier/data_manager.py" />
       </list>
     </option>
   </component>
@@ -1772,8 +1774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dogs_breed_classifier/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="337">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1782,8 +1784,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dogs_breed_classifier/dog_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="397">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,9 +17,9 @@ def load_dataset(path):
     return dog_files, dog_targets
 
 
-def get_dog_files_short():
+def get_dog_files_short(length=10):
     train_files, train_targets = load_dataset(os.path.join(DATA_DIR, TRAIN))
-    return train_files[:100]
+    return train_files[:length]
 
 
 if __name__ == '__main__':
