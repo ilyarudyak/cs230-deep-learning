@@ -25,7 +25,7 @@ def extract_features(directory, sample_count, batch_size=20):
         features[i * batch_size: (i + 1) * batch_size] = features_batch
         labels[i * batch_size: (i + 1) * batch_size] = labels_batch
         i += 1
-        if i * batch_size >= 40:  # sample_count:
+        if i * batch_size >= sample_count:
             # Note that since generators yield data indefinitely in a loop,
             # we must `break` after every image has been seen once.
             break
@@ -105,6 +105,5 @@ if __name__ == '__main__':
     conv_base = VGG16(weights='imagenet',
                       include_top=False,
                       input_shape=(150, 150, 3))
-    # precompute_data()
-    history = fit_transfer_learning_model(epochs=30)
-    # plot_curves(history)
+    precompute_data()
+    # history = fit_transfer_learning_model(epochs=30)
