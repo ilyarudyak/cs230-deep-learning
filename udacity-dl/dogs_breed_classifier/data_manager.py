@@ -22,10 +22,12 @@ def get_dog_files_short(length=10):
     return train_files[:length]
 
 
-if __name__ == '__main__':
-    np.random.seed(42)
+def get_data():
     train_files, train_targets = load_dataset(os.path.join(DATA_DIR, TRAIN))
     valid_files, valid_targets = load_dataset(os.path.join(DATA_DIR, VALID))
     test_files, test_targets = load_dataset(os.path.join(DATA_DIR, TEST))
-    dog_files_short = train_files[:100]
-    print(dog_files_short)
+    return train_files, train_targets, valid_files, valid_targets, test_files, test_targets
+
+
+if __name__ == '__main__':
+    np.random.seed(42)

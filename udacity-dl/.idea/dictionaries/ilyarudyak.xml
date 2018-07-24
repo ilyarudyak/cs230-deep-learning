@@ -1,8 +1,10 @@
 <component name="ProjectDictionaryState">
   <dictionary name="ilyarudyak">
     <words>
+      <w>checkpointer</w>
       <w>cifar</w>
       <w>conv</w>
+      <w>crossentropy</w>
       <w>dataset</w>
       <w>ilyarudyak</w>
       <w>imagenet</w>
@@ -13,6 +15,8 @@
       <w>ncol</w>
       <w>nrow</w>
       <w>relu</w>
+      <w>rmsprop</w>
+      <w>softmax</w>
       <w>vals</w>
     </words>
   </dictionary>

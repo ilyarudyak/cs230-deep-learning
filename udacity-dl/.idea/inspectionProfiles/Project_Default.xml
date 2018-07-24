@@ -13,6 +13,7 @@
         <list>
           <option value="N803" />
           <option value="N802" />
+          <option value="N806" />
         </list>
       </option>
     </inspection_tool>
@@ -23,6 +24,7 @@
           <option value="conv_ksize" />
           <option value="conv_strides" />
           <option value="data_manager.get_dog_files_short" />
+          <option value="data_manager.get_data" />
         </list>
       </option>
     </inspection_tool>
