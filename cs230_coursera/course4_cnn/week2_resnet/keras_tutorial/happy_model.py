@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 from keras import Input, Model
-from keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.layers import ZeroPadding2D, Conv2D, BatchNormalization, \
     Activation, MaxPooling2D, Flatten, Dense
 
@@ -29,6 +29,8 @@ def fit_happy_model(input_shape, epochs=1):
     hm.compile('adam', 'binary_crossentropy', metrics=['accuracy'])
 
     callbacks_list = [
+        EarlyStopping(monitor='val_loss',
+                      patience=5),
         ModelCheckpoint(filepath=file_path,
                         monitor='val_loss',
                         verbose=1, save_best_only=True)

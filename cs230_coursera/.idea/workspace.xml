@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0002.jpg" beforeDir="false" />
@@ -1396,8 +1393,8 @@
       <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="601">
+              <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#210#507#0" />
@@ -1597,8 +1594,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="151" y="45" width="1047" height="667" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.2702961" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -1798,8 +1796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="601">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#210#507#0" />
