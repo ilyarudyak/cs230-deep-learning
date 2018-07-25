@@ -110,7 +110,7 @@ if __name__ == '__main__':
     file_path = 'saved_models/best_weights.h5'
 
     X_train, Y_train, X_test, Y_test = preprocess_data()
-    hm = fit_happy_model(X_train.shape[1:], epochs=3)
+    hm = fit_happy_model(X_train.shape[1:], epochs=50)
     # print(hm.summary())
     test_loss, test_accuracy = evaluate_model(hm)
     print(f'test_loss:{test_loss} test_accuracy:{test_accuracy}')
