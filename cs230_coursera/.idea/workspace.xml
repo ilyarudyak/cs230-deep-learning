@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs230_coursera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs230_coursera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/Keras+-+Tutorial+-+Happy+House+v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/Keras+-+Tutorial+-+Happy+House+v2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0002.jpg" beforeDir="false" />
@@ -1383,12 +1380,12 @@
     <favorites_list name="cs230_coursera" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="kt_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -1399,11 +1396,16 @@
       <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="282">
+              <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#56#377#0" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#210#507#0" />
+                <element signature="e#210#277#0" />
+                <element signature="e#795#1620#0" />
+                <element signature="e#795#861#0" />
+                <element signature="e#1428#1490#0" />
+                <element signature="e#1896#2032#0" />
               </folding>
             </state>
           </provider>
@@ -1595,9 +1597,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="151" y="45" width="1047" height="667" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" weight="0.2702961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -1620,6 +1621,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#210#507#0" />
+            <element signature="e#210#277#0" />
+            <element signature="e#795#1620#0" />
+            <element signature="e#795#861#0" />
+            <element signature="e#1428#1490#0" />
+            <element signature="e#1896#2032#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1761,8 +1788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1771,11 +1798,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="282">
+          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#56#377#0" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#210#507#0" />
+            <element signature="e#210#277#0" />
+            <element signature="e#795#1620#0" />
+            <element signature="e#795#861#0" />
+            <element signature="e#1428#1490#0" />
+            <element signature="e#1896#2032#0" />
           </folding>
         </state>
       </provider>

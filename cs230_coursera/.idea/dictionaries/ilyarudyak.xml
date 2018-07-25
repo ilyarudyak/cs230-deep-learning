@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="ilyarudyak">
     <words>
+      <w>checkpointer</w>
       <w>conv</w>
       <w>crossentropy</w>
       <w>dataset</w>
@@ -8,6 +9,7 @@
       <w>fullyconnected</w>
       <w>keras</w>
       <w>maxpool</w>
+      <w>pred</w>
       <w>preprocess</w>
       <w>relu</w>
     </words>

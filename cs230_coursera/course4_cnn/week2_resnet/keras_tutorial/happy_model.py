@@ -1,4 +1,8 @@
+import numpy as np
+import tensorflow as tf
+
 from keras import Input, Model
+from keras.callbacks import ModelCheckpoint
 from keras.layers import ZeroPadding2D, Conv2D, BatchNormalization, \
     Activation, MaxPooling2D, Flatten, Dense
 
@@ -20,11 +24,21 @@ def preprocess_data():
     return X_train, Y_train, X_test, Y_test
 
 
-def fit_happy_model(input_shape):
+def fit_happy_model(input_shape, epochs=1):
     hm = build_happy_model(input_shape)
     hm.compile('adam', 'binary_crossentropy', metrics=['accuracy'])
-    hm.fit(X_train, Y_train, epochs=3, batch_size=64, verbose=2)
-    hm.evaluate(x=X_test, y=Y_test)
+
+    callbacks_list = [
+        ModelCheckpoint(filepath=file_path,
+                        monitor='val_loss',
+                        verbose=1, save_best_only=True)
+    ]
+    hm.fit(X_train, Y_train,
+           epochs=epochs, batch_size=64, verbose=2,
+           validation_split=0.1,
+           callbacks=callbacks_list)
+
+    return hm
 
 
 def build_happy_model(input_shape):
@@ -53,6 +67,17 @@ def build_happy_model(input_shape):
     return model
 
 
+def evaluate_model(hm):
+    hm.load_weights(file_path)
+    test_loss, test_accuracy = hm.evaluate(x=X_test, y=Y_test, verbose=0)
+    return test_loss, test_accuracy
+
+
 if __name__ == '__main__':
+    np.random.seed(42)
+    file_path = 'saved_models/best_weights.h5'
+
     X_train, Y_train, X_test, Y_test = preprocess_data()
-    fit_happy_model(X_train.shape[1:])
+    hm = fit_happy_model(X_train.shape[1:], epochs=5)
+    test_loss, test_accuracy = evaluate_model(hm)
+    print(f'test_loss:{test_loss} test_accuracy:{test_accuracy}')
