@@ -4,7 +4,7 @@ import tensorflow as tf
 from keras import Input, Model
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.layers import ZeroPadding2D, Conv2D, BatchNormalization, \
-    Activation, MaxPooling2D, Flatten, Dense
+    Activation, MaxPooling2D, Flatten, Dense, Dropout
 
 from kt_utils import load_dataset
 
@@ -25,8 +25,10 @@ def preprocess_data():
 
 
 def fit_happy_model(input_shape, epochs=1):
-    hm = build_happy_model(input_shape)
-    hm.compile('adam', 'binary_crossentropy', metrics=['accuracy'])
+    hm = build_happy_model2(input_shape)
+    hm.compile(optimizer='adam',
+               loss='binary_crossentropy',
+               metrics=['accuracy'])
 
     callbacks_list = [
         EarlyStopping(monitor='val_loss',
@@ -41,6 +43,33 @@ def fit_happy_model(input_shape, epochs=1):
            callbacks=callbacks_list)
 
     return hm
+
+
+def build_happy_model2(input_shape):
+
+    X_input = Input(input_shape)
+
+    # CONV->BATCHNORM->RELU
+    X = Conv2D(filters=32, kernel_size=(3, 3), strides=(1, 1), name='conv0')(X_input)
+    X = BatchNormalization(axis=3, name='bn0')(X)
+    X = Activation('relu')(X)
+    X = MaxPooling2D(pool_size=(2, 2), name='max_pool0')(X)
+
+    # CONV->BATCHNORM->RELU
+    X = Conv2D(filters=32, kernel_size=(3, 3), strides=(1, 1), name='conv1')(X)
+    X = BatchNormalization(axis=3, name='bn1')(X)
+    X = Activation('relu')(X)
+    X = MaxPooling2D((2, 2), name='max_pool1')(X)
+
+    # FLATTEN->DENSE->OUTPUT
+    X = Flatten()(X)
+    X = Dense(64, activation='relu', name='dense0')(X)
+    X = Dropout(rate=.5)(X)
+    X_out = Dense(1, activation='sigmoid', name='out0')(X)
+
+    model = Model(inputs=X_input, outputs=X_out, name='happy_model')
+
+    return model
 
 
 def build_happy_model(input_shape):
@@ -80,6 +109,7 @@ if __name__ == '__main__':
     file_path = 'saved_models/best_weights.h5'
 
     X_train, Y_train, X_test, Y_test = preprocess_data()
-    hm = fit_happy_model(X_train.shape[1:], epochs=5)
+    hm = fit_happy_model(X_train.shape[1:], epochs=40)
+    # print(hm.summary())
     test_loss, test_accuracy = evaluate_model(hm)
     print(f'test_loss:{test_loss} test_accuracy:{test_accuracy}')
