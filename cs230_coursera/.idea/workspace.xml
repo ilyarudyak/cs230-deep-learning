@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/Residual+Networks+-+v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/Residual+Networks+-+v2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0002.jpg" beforeDir="false" />
@@ -1378,32 +1382,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kt_utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
+      <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1560">
+              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
+      <file leaf-file-name="resnet50.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+            <state relative-caret-position="500">
+              <caret line="139" column="46" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
               <folding>
-                <element signature="e#210#507#0" />
-                <element signature="e#210#277#0" />
-                <element signature="e#1271#1833#0" />
-                <element signature="e#795#1620#0" />
-                <element signature="e#795#861#0" />
-                <element signature="e#1428#1490#0" />
-                <element signature="e#1896#2032#0" />
-                <element signature="e#2066#2349#0" />
+                <element signature="e#2358#3041#1" />
+                <element signature="e#3287#3308#0" />
               </folding>
             </state>
           </provider>
@@ -1437,6 +1432,7 @@
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" />
       </list>
     </option>
   </component>
@@ -1485,6 +1481,13 @@
               <item name="week2_resnet" type="462c0819:PsiDirectoryNode" />
               <item name="keras_tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_resnet" type="462c0819:PsiDirectoryNode" />
+              <item name="resnet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1512,7 +1515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.happy_model">
+  <component name="RunManager" selected="Python.resnet50">
     <configuration name="happy_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1567,13 +1570,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="resnet50" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.log_regression" />
       <item itemvalue="Python.planar_classifier" />
       <item itemvalue="Python.happy_model" />
+      <item itemvalue="Python.resnet50" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.resnet50" />
         <item itemvalue="Python.happy_model" />
         <item itemvalue="Python.planar_classifier" />
         <item itemvalue="Python.log_regression" />
@@ -1602,7 +1625,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.696124" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33023256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
       <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.2702961" />
@@ -1620,13 +1643,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+          <folding>
+            <element signature="e#2358#3041#1" />
+            <element signature="e#3287#3308#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,16 +1672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#210#507#0" />
-            <element signature="e#210#277#0" />
-            <element signature="e#1271#1833#0" />
-            <element signature="e#795#1620#0" />
-            <element signature="e#795#861#0" />
-            <element signature="e#1428#1490#0" />
-            <element signature="e#1896#2032#0" />
-            <element signature="e#2066#2349#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1790,25 +1818,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state relative-caret-position="1560">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="139" column="46" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
           <folding>
-            <element signature="e#210#507#0" />
-            <element signature="e#210#277#0" />
-            <element signature="e#1271#1833#0" />
-            <element signature="e#795#1620#0" />
-            <element signature="e#795#861#0" />
-            <element signature="e#1428#1490#0" />
-            <element signature="e#1896#2032#0" />
-            <element signature="e#2066#2349#0" />
+            <element signature="e#2358#3041#1" />
+            <element signature="e#3287#3308#0" />
           </folding>
         </state>
       </provider>
