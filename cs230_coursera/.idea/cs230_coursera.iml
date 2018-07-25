@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week2_resnet" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week3_ob_detect" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week4_face_rec" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week2_resnet/resnet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week2_resnet/keras_tutorial" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

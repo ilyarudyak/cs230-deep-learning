@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course4_cnn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../udacity-dl/dogs_breed_classifier/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cs230_coursera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs230_coursera.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/Keras+-+Tutorial+-+Happy+House+v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/Keras+-+Tutorial+-+Happy+House+v2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0002.jpg" beforeDir="false" />
@@ -1381,13 +1379,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cs230_coursera" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+    <leaf>
+      <file leaf-file-name="kt_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#56#377#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1418,6 +1435,8 @@
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_utils.py" />
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/testCases.py" />
         <option value="$PROJECT_DIR$/course1_nn_dl/week3_shallow_nn/planar_classifier.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
       </list>
     </option>
   </component>
@@ -1435,6 +1454,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1456,31 +1476,19 @@
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week1_intro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
               <item name="week2_resnet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week3_ob_detect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week4_face_rec" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_resnet" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1504,7 +1512,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.planar_classifier">
+  <component name="RunManager" selected="Python.happy_model">
+    <configuration name="happy_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="log_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1544,9 +1570,11 @@
     <list>
       <item itemvalue="Python.log_regression" />
       <item itemvalue="Python.planar_classifier" />
+      <item itemvalue="Python.happy_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.happy_model" />
         <item itemvalue="Python.planar_classifier" />
         <item itemvalue="Python.log_regression" />
       </list>
@@ -1567,20 +1595,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="151" y="45" width="1047" height="667" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2702961" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4511628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.2702961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4511628" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1591,6 +1620,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1706,6 +1742,41 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/Residual+Networks+-+v2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/Keras+-+Tutorial+-+Happy+House+v2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#56#377#0" />
+          </folding>
         </state>
       </provider>
     </entry>
