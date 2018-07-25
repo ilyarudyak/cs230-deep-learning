@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 from keras import Input, Model
-from keras.callbacks import ModelCheckpoint, EarlyStopping
+from keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard
 from keras.layers import ZeroPadding2D, Conv2D, BatchNormalization, \
     Activation, MaxPooling2D, Flatten, Dense, Dropout
 
@@ -32,10 +32,11 @@ def fit_happy_model(input_shape, epochs=1):
 
     callbacks_list = [
         EarlyStopping(monitor='val_loss',
-                      patience=5),
+                      patience=10),
         ModelCheckpoint(filepath=file_path,
                         monitor='val_loss',
-                        verbose=1, save_best_only=True)
+                        verbose=1, save_best_only=True),
+        TensorBoard('logs/happy_house')
     ]
     hm.fit(X_train, Y_train,
            epochs=epochs, batch_size=64, verbose=2,
@@ -109,7 +110,7 @@ if __name__ == '__main__':
     file_path = 'saved_models/best_weights.h5'
 
     X_train, Y_train, X_test, Y_test = preprocess_data()
-    hm = fit_happy_model(X_train.shape[1:], epochs=40)
+    hm = fit_happy_model(X_train.shape[1:], epochs=3)
     # print(hm.summary())
     test_loss, test_accuracy = evaluate_model(hm)
     print(f'test_loss:{test_loss} test_accuracy:{test_accuracy}')

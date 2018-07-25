@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/saved_models/best_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/saved_models/best_weights.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dltf-krohn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0001.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dltf-krohn/convolutional_nn/17flowers/jpg/0/image_0002.jpg" beforeDir="false" />
@@ -1396,15 +1393,17 @@
       <file leaf-file-name="happy_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="113" column="25" lean-forward="true" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+            <state relative-caret-position="718">
+              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#210#507#0" />
                 <element signature="e#210#277#0" />
+                <element signature="e#1271#1833#0" />
                 <element signature="e#795#1620#0" />
+                <element signature="e#795#861#0" />
                 <element signature="e#1428#1490#0" />
                 <element signature="e#1896#2032#0" />
+                <element signature="e#2066#2349#0" />
               </folding>
             </state>
           </provider>
@@ -1636,12 +1635,14 @@
         <state>
           <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#210#507#0" />
             <element signature="e#210#277#0" />
+            <element signature="e#1271#1833#0" />
             <element signature="e#795#1620#0" />
+            <element signature="e#795#861#0" />
             <element signature="e#1428#1490#0" />
             <element signature="e#1896#2032#0" />
+            <element signature="e#2066#2349#0" />
           </folding>
         </state>
       </provider>
@@ -1797,15 +1798,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="113" column="25" lean-forward="true" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+        <state relative-caret-position="718">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#210#507#0" />
             <element signature="e#210#277#0" />
+            <element signature="e#1271#1833#0" />
             <element signature="e#795#1620#0" />
+            <element signature="e#795#861#0" />
             <element signature="e#1428#1490#0" />
             <element signature="e#1896#2032#0" />
+            <element signature="e#2066#2349#0" />
           </folding>
         </state>
       </provider>
