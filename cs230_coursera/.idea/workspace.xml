@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/Convolution+model+-+Application+-+v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/Convolution+model+-+Application+-+v1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/Convolution+model+-+Step+by+Step+-+v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/Convolution+model+-+Step+by+Step+-+v2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/logs/happy_house/events.out.tfevents.1532531011.Ilyas-MacBook-Pro.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="step_by_step.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
+      <file leaf-file-name="test_step_by_step.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="320">
+              <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -35,13 +30,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_step_by_step.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
+      <file leaf-file-name="step_by_step.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="366">
+              <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#26#476#0" />
+                <element signature="e#26#460#2" />
+                <element signature="e#712#1271#0" />
+                <element signature="e#712#1212#2" />
               </folding>
             </state>
           </provider>
@@ -76,8 +74,8 @@
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" />
-        <option value="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" />
       </list>
     </option>
   </component>
@@ -154,7 +152,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.py.test in test_step_by_step.py">
-    <configuration name="happy_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="step_by_step" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,29 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week1_intro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="resnet50" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cs230_coursera" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,6 +182,20 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;step_by_step.test_zero_pad&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_step_by_step.test_conv_single_step" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week1_intro/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_step_by_step.test_conv_single_step&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in step_by_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -233,19 +227,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.happy_model" />
-      <item itemvalue="Python.resnet50" />
       <item itemvalue="Python tests.py.test in step_by_step.py" />
       <item itemvalue="Python tests.py.test for step_by_step.test_zero_pad" />
       <item itemvalue="Python tests.py.test in test_step_by_step.py" />
+      <item itemvalue="Python.step_by_step" />
+      <item itemvalue="Python tests.py.test for test_step_by_step.test_conv_single_step" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.py.test in test_step_by_step.py" />
+        <item itemvalue="Python tests.py.test for test_step_by_step.test_conv_single_step" />
+        <item itemvalue="Python.step_by_step" />
         <item itemvalue="Python tests.py.test for step_by_step.test_zero_pad" />
         <item itemvalue="Python tests.py.test in step_by_step.py" />
-        <item itemvalue="Python.resnet50" />
-        <item itemvalue="Python.happy_model" />
       </list>
     </recent_temporary>
   </component>
@@ -263,24 +257,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_step_by_step_py - 2018.07.26 at 16h 45m 12s.xml">
-      <configuration name="py.test in step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_step_by_step_test_zero_pad - 2018.07.26 at 17h 10m 27s.xml">
-      <configuration name="py.test for step_by_step.test_zero_pad" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 23m 08s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 24m 34s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 25m 30s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 31m 59s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 32m 49s.xml">
       <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
     </history-entry>
@@ -291,6 +267,24 @@
       <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 36m 24s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 37m 45s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 38m 06s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 01m 55s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 02m 52s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_step_by_step_test_conv_single_step - 2018.07.26 at 18h 05m 53s.xml">
+      <configuration name="py.test for test_step_by_step.test_conv_single_step" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 34m 46s.xml">
       <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -525,18 +519,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="366">
+          <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#26#476#0" />
+            <element signature="e#26#460#2" />
+            <element signature="e#712#1271#0" />
+            <element signature="e#712#1212#2" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="320">
+          <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

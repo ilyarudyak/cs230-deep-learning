@@ -5,10 +5,12 @@
       <w>batchnorm</w>
       <w>checkpointer</w>
       <w>conv</w>
+      <w>convolving</w>
       <w>crossentropy</w>
       <w>dataset</w>
       <w>datasets</w>
       <w>fullyconnected</w>
+      <w>hparameters</w>
       <w>keras</w>
       <w>maxpool</w>
       <w>pred</w>
