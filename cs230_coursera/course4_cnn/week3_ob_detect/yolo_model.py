@@ -40,3 +40,26 @@ def yolo_filter_boxes(box_confidence, boxes, box_class_probs, threshold=.6):
     classes = tf.boolean_mask(box_classes, mask)
 
     return scores, boxes, classes
+
+
+def iou(box1, box2):
+    """Implement the intersection over union (IoU) between box1 and box2
+
+    Arguments:
+    box1 -- first box, list object with coordinates (x1, y1, x2, y2)
+    box2 -- second box, list object with coordinates (x1, y1, x2, y2)
+    """
+    intersection_area = area(intersection(box1, box2))
+    union_area = area(box1) + area(box2) - intersection_area
+    return intersection_area / union_area
+
+
+def area(box):
+    x1, y1, x2, y2 = box
+    return (y2 - y1) * (x2 - x1)
+
+
+def intersection(box1, box2):
+    x1, y1, x2, y2 = box1
+    x1_, y1_, x2_, y2_ = box2
+    return max(x1, x1_), max(y1, y1_), min(x2, x2_), min(y2, y2_)

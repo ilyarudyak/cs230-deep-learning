@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from yolo_model import yolo_filter_boxes
+from yolo_model import yolo_filter_boxes, iou
 
 
 def test_yolo_filter_boxes():
@@ -27,3 +27,8 @@ def test_yolo_filter_boxes():
         print(f'---> boxes shape: {boxes_val.shape}\n\n')
 
 
+def test_iou():
+    box1 = (2, 1, 4, 3)
+    box2 = (1, 2, 3, 4)
+
+    assert np.isclose(0.142857142857, iou(box1, box2))
