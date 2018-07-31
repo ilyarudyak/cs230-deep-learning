@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/model_data/yolo_params.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model_pretrained.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yolo_model2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model2.py">
+      <file leaf-file-name="yolo_model_pretrained2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,12 +68,13 @@
         <option value="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model_pretrained.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model2.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="36" />
+    <option name="x" value="73" />
+    <option name="y" value="34" />
     <option name="width" value="1104" />
     <option name="height" value="667" />
   </component>
@@ -113,13 +113,6 @@
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week3_ob_detect" type="462c0819:PsiDirectoryNode" />
-              <item name="model_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
               <item name="week4_face_rec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -150,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yolo_model_pretrained">
+  <component name="RunManager" selected="Python.yolo_model_pretrained2">
     <configuration name="yolo_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,19 +180,23 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for test_yolo_model.test_iou" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="yolo_model_pretrained2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week3_ob_detect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_yolo_model.test_iou&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="py.test for test_yolo_model.test_yolo_eval" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs230_coursera" />
@@ -230,19 +227,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test for test_yolo_model.test_iou" />
-      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_non_max_suppression" />
       <item itemvalue="Python.yolo_model" />
-      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
       <item itemvalue="Python.yolo_model_pretrained" />
+      <item itemvalue="Python.yolo_model_pretrained2" />
+      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_non_max_suppression" />
+      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yolo_model_pretrained2" />
         <item itemvalue="Python.yolo_model_pretrained" />
         <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
         <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_non_max_suppression" />
         <item itemvalue="Python.yolo_model" />
-        <item itemvalue="Python tests.py.test for test_yolo_model.test_iou" />
       </list>
     </recent_temporary>
   </component>
@@ -294,15 +291,14 @@
   <component name="ToolWindowManager">
     <frame x="95" y="36" width="1104" height="667" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.26992753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.26992753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.63255817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4155039" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4155039" />
       <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.26992753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,6 +307,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -322,13 +319,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
           <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
-          <folding>
-            <element signature="e#712#1271#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,9 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
-          <folding>
-            <element signature="e#712#1271#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/images/0120.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/images/0119.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -604,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,29 +607,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#201#1911#0" />
-            <element signature="e#201#1095#1" />
-            <element signature="e#1185#1245#0" />
-            <element signature="e#1402#1485#0" />
-            <element signature="e#1939#2328#0" />
-            <element signature="e#1939#2170#1" />
-            <element signature="e#2350#2403#0" />
-            <element signature="e#2440#2557#0" />
-            <element signature="e#2651#4402#0" />
-            <element signature="e#2651#3586#1" />
-            <element signature="e#4517#6711#0" />
-            <element signature="e#4517#5699#1" />
-            <element signature="e#5930#6019#0" />
-            <element signature="e#6314#6407#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="-1465">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/images/0120.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/images/0110.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
