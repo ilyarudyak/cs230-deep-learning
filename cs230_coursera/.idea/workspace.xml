@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,29 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_step_by_step.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
+      <file leaf-file-name="test_yolo_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+            <state relative-caret-position="59">
+              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step_by_step.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
+      <file leaf-file-name="yolo_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
-              <folding>
-                <element signature="e#26#476#0" />
-                <element signature="e#26#460#2" />
-                <element signature="e#712#1271#0" />
-                <element signature="e#712#1212#2" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="37" column="22" selection-start-line="37" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -74,14 +70,16 @@
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py" />
-        <option value="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="45" />
+    <option name="x" value="152" />
+    <option name="y" value="36" />
     <option name="width" value="1047" />
     <option name="height" value="667" />
   </component>
@@ -114,14 +112,7 @@
               <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
               <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week1_intro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
-              <item name="week1_intro" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="week3_ob_detect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_step_by_step.py">
+  <component name="RunManager" selected="Python tests.py.test for test_yolo_model.test_yolo_filter_boxes">
     <configuration name="step_by_step" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,19 +189,19 @@
       <option name="_new_target" value="&quot;test_step_by_step.test_conv_single_step&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in step_by_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week1_intro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week3_ob_detect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_yolo_model.test_yolo_filter_boxes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in test_step_by_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs230_coursera" />
@@ -227,19 +218,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in step_by_step.py" />
       <item itemvalue="Python tests.py.test for step_by_step.test_zero_pad" />
       <item itemvalue="Python tests.py.test in test_step_by_step.py" />
       <item itemvalue="Python.step_by_step" />
       <item itemvalue="Python tests.py.test for test_step_by_step.test_conv_single_step" />
+      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_filter_boxes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_filter_boxes" />
         <item itemvalue="Python tests.py.test in test_step_by_step.py" />
         <item itemvalue="Python tests.py.test for test_step_by_step.test_conv_single_step" />
         <item itemvalue="Python.step_by_step" />
         <item itemvalue="Python tests.py.test for step_by_step.test_zero_pad" />
-        <item itemvalue="Python tests.py.test in step_by_step.py" />
       </list>
     </recent_temporary>
   </component>
@@ -257,47 +248,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 32m 49s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 33m 13s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 34m 38s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 36m 24s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 37m 45s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 17h 38m 06s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 01m 55s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 02m 52s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_step_by_step_test_conv_single_step - 2018.07.26 at 18h 05m 53s.xml">
-      <configuration name="py.test for test_step_by_step.test_conv_single_step" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 34m 46s.xml">
       <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 36m 08s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 36m 26s.xml">
+      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 53m 24s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 54m 31s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 58m 19s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 59m 45s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 00m 15s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 00m 41s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 02m 06s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="45" width="1047" height="667" extended-state="0" />
-    <editor active="true" />
+    <frame x="152" y="36" width="1047" height="667" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6868217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6868217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
       <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.2702961" />
@@ -315,6 +305,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+          <folding>
+            <element signature="e#712#1271#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -517,25 +527,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+        <state relative-caret-position="840">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#26#476#0" />
-            <element signature="e#26#460#2" />
-            <element signature="e#712#1271#0" />
-            <element signature="e#712#1212#2" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week1_intro/step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        <state relative-caret-position="280">
+          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#712#1271#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="22" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

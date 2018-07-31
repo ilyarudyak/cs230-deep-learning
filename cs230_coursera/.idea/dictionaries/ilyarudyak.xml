@@ -16,6 +16,8 @@
       <w>pred</w>
       <w>preprocess</w>
       <w>relu</w>
+      <w>thresholding</w>
+      <w>yolo</w>
     </words>
   </dictionary>
 </component>
