@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from yolo_model import yolo_filter_boxes, iou, yolo_non_max_suppression
+from yolo_model import yolo_filter_boxes, iou, yolo_non_max_suppression, yolo_eval
 
 
 def test_yolo_filter_boxes():
@@ -51,3 +51,23 @@ def test_yolo_non_max_suppression():
         assert np.allclose(target, boxes_val[2])
 
         assert np.isclose(-2.24527, classes_val[2])
+
+
+def test_yolo_eval():
+    with tf.Session() as test_c:
+        yolo_outputs = (tf.random_normal([19, 19, 5, 1], mean=1, stddev=4, seed=1),
+                        tf.random_normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
+                        tf.random_normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
+                        tf.random_normal([19, 19, 5, 80], mean=1, stddev=4, seed=1))
+
+        scores, boxes, classes = yolo_eval(yolo_outputs)
+        scores_val = scores.eval()
+        boxes_val = boxes.eval()
+        classes_val = classes.eval()
+
+        assert np.isclose(138.791, scores_val[2])
+
+        target = np.array([1292.32971191, -278.52166748, 3876.98925781, -835.56494141])
+        assert np.allclose(target, boxes_val[2])
+
+        assert np.isclose(54, classes_val[2])

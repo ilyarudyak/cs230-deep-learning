@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" afterDir="false" />
     </list>
@@ -22,8 +20,8 @@
       <file leaf-file-name="test_yolo_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="83" />
+            <state relative-caret-position="160">
+              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#158#946#0" />
@@ -35,10 +33,10 @@
       <file leaf-file-name="yolo_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="380">
+              <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
               <folding>
-                <element signature="e#107#1817#0" />
+                <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#81#968#2" />
                 <element signature="e#1060#1120#0" />
                 <element signature="e#1215#1298#0" />
@@ -46,6 +44,7 @@
                 <element signature="e#1845#2076#1" />
                 <element signature="e#2112#2165#0" />
                 <element signature="e#2201#2311#0" />
+                <element signature="e#2557#3988#0" />
                 <element signature="e#2557#3492#1" />
               </folding>
             </state>
@@ -153,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yolo_model">
+  <component name="RunManager" selected="Python tests.py.test for test_yolo_model.test_yolo_eval">
     <configuration name="yolo_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +185,20 @@
       <option name="_new_target" value="&quot;test_yolo_model.test_iou&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test for test_yolo_model.test_yolo_eval" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week3_ob_detect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_yolo_model.test_yolo_eval&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,34 +227,20 @@
       <option name="_new_target" value="&quot;test_yolo_model.test_yolo_non_max_suppression&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_step_by_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="cs230_coursera" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week1_intro/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/course4_cnn/week1_intro/tests/test_step_by_step.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in test_step_by_step.py" />
       <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_filter_boxes" />
       <item itemvalue="Python tests.py.test for test_yolo_model.test_iou" />
       <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_non_max_suppression" />
       <item itemvalue="Python.yolo_model" />
+      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.yolo_model" />
+        <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
         <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_non_max_suppression" />
+        <item itemvalue="Python.yolo_model" />
         <item itemvalue="Python tests.py.test for test_yolo_model.test_iou" />
         <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_filter_boxes" />
-        <item itemvalue="Python tests.py.test in test_step_by_step.py" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 04s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 32s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 48s.xml">
       <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
     </history-entry>
@@ -287,6 +280,12 @@
       <configuration name="py.test for test_yolo_model.test_yolo_non_max_suppression" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_test_yolo_model_test_yolo_non_max_suppression - 2018.07.31 at 15h 36m 25s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_non_max_suppression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_non_max_suppression - 2018.07.31 at 15h 39m 54s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_non_max_suppression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_non_max_suppression - 2018.07.31 at 15h 40m 17s.xml">
       <configuration name="py.test for test_yolo_model.test_yolo_non_max_suppression" configurationId="tests" />
     </history-entry>
   </component>
@@ -566,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="83" />
+        <state relative-caret-position="160">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#158#946#0" />
@@ -577,10 +576,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        <state relative-caret-position="380">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
           <folding>
-            <element signature="e#107#1817#0" />
+            <element signature="e#0#23#0" expanded="true" />
             <element signature="e#81#968#2" />
             <element signature="e#1060#1120#0" />
             <element signature="e#1215#1298#0" />
@@ -588,6 +587,7 @@
             <element signature="e#1845#2076#1" />
             <element signature="e#2112#2165#0" />
             <element signature="e#2201#2311#0" />
+            <element signature="e#2557#3988#0" />
             <element signature="e#2557#3492#1" />
           </folding>
         </state>
