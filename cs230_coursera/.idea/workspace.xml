@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/Autonomous+driving+application+-+Car+detection+-+v1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="test_yolo_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -35,8 +31,8 @@
       <file leaf-file-name="yolo_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="37" column="22" selection-start-line="37" selection-end-line="38" />
+            <state relative-caret-position="326">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -248,46 +244,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 34m 46s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 36m 08s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_step_by_step_py - 2018.07.26 at 18h 36m 26s.xml">
-      <configuration name="py.test in test_step_by_step.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 53m 24s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 54m 31s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 58m 19s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 12h 59m 45s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 00m 15s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 00m 41s.xml">
-      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 02m 06s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 39m 05s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 41m 40s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 42m 05s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 04s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 32s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 44m 48s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 45m 50s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 46m 06s.xml">
+      <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_yolo_model_test_yolo_filter_boxes - 2018.07.31 at 13h 46m 19s.xml">
       <configuration name="py.test for test_yolo_model.test_yolo_filter_boxes" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="152" y="36" width="1047" height="667" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" weight="0.2702961" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6868217" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6868217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
       <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.2702961" />
@@ -549,15 +546,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/yolo_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="37" column="22" selection-start-line="37" selection-end-line="38" />
+        <state relative-caret-position="326">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week3_ob_detect/test_yolo_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
