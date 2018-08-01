@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week4_face_rec" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week2_resnet/resnet" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week2_resnet/keras_tutorial" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week4_face_rec/face_recognition" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course4_cnn/week4_face_rec/neural_style_transfer" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
