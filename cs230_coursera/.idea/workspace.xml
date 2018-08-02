@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/test_triplet_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs230_coursera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs230_coursera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/Face+Recognition+for+the+Happy+House+-+v3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/Face+Recognition+for+the+Happy+House+-+v3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/Face+Recognition+for+the+Happy+House+-+v3-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/Face+Recognition+for+the+Happy+House+-+v3-Copy1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,23 +20,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_triplet_loss.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/test_triplet_loss.py">
+      <file leaf-file-name="triplet_loss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="340">
+              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#2011#3278#0" />
+                <element signature="e#2011#2608#1" />
+                <element signature="e#2614#2637#0" />
+                <element signature="e#3048#3123#0" />
+                <element signature="e#3142#3223#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="triplet_loss.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py">
+      <file leaf-file-name="fr_utils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="218" column="29" lean-forward="true" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+              <folding>
+                <element signature="e#575#684#0" />
+                <element signature="e#704#724#0" />
+                <element signature="e#745#764#0" />
+                <element signature="e#814#859#0" />
+                <element signature="e#900#998#0" />
+                <element signature="e#1018#1060#0" />
+                <element signature="e#1328#2053#0" />
+                <element signature="e#2065#3868#0" />
+                <element signature="e#3883#5500#0" />
+                <element signature="e#5546#5963#0" />
+                <element signature="e#5989#7383#0" />
+                <element signature="e#6264#7358#0" />
+                <element signature="e#6295#6604#0" />
+                <element signature="e#6649#7002#0" />
+                <element signature="e#7045#7358#0" />
+                <element signature="e#7410#8215#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,12 +115,14 @@
         <option value="$PROJECT_DIR$/course4_cnn/yolo_model_pretrained2.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/test_triplet_loss.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="36" />
+    <option name="x" value="147" />
+    <option name="y" value="28" />
     <option name="width" value="1104" />
     <option name="height" value="667" />
   </component>
@@ -101,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +192,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_triplet_loss.py">
+  <component name="RunManager" selected="Python.fr_model">
+    <configuration name="fr_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs230_coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="yolo_model_pretrained" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,20 +261,6 @@
       <option name="_new_target" value="&quot;test_triplet_loss.test_triplet_loss&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_yolo_model.test_yolo_eval" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="cs230_coursera" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4_cnn/week3_ob_detect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_yolo_model.test_yolo_eval&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="py.test in test_triplet_loss.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs230_coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,17 +278,17 @@
     <list>
       <item itemvalue="Python.yolo_model_pretrained" />
       <item itemvalue="Python.yolo_model_pretrained2" />
-      <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
       <item itemvalue="Python tests.py.test in test_triplet_loss.py" />
       <item itemvalue="Python tests.py.test for test_triplet_loss.test_triplet_loss" />
+      <item itemvalue="Python.fr_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fr_model" />
         <item itemvalue="Python tests.py.test in test_triplet_loss.py" />
         <item itemvalue="Python tests.py.test for test_triplet_loss.test_triplet_loss" />
         <item itemvalue="Python.yolo_model_pretrained2" />
         <item itemvalue="Python.yolo_model_pretrained" />
-        <item itemvalue="Python tests.py.test for test_yolo_model.test_yolo_eval" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +338,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="36" width="1104" height="667" extended-state="0" />
+    <frame x="147" y="28" width="1104" height="667" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" weight="0.26992753" />
@@ -309,7 +346,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63255817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4356589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4155039" />
       <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.26992753" />
@@ -335,20 +372,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/resnet/resnet50.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/kt_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -608,29 +631,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/inception_blocks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#446#2323#0" />
-            <element signature="e#446#498#1" />
-            <element signature="e#2356#4147#0" />
-            <element signature="e#4180#5130#0" />
-            <element signature="e#5163#6436#0" />
-            <element signature="e#6469#7440#0" />
-            <element signature="e#7473#8391#0" />
-            <element signature="e#8424#9366#0" />
-            <element signature="e#9404#11287#0" />
-            <element signature="e#9404#9603#1" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/model_summary.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -656,19 +661,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/test_triplet_loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/test_triplet_loss.py">
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/triplet_loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="340">
+          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#2011#3278#0" />
+            <element signature="e#2011#2608#1" />
+            <element signature="e#2614#2637#0" />
+            <element signature="e#3048#3123#0" />
+            <element signature="e#3142#3223#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="218" column="29" lean-forward="true" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+          <folding>
+            <element signature="e#575#684#0" />
+            <element signature="e#704#724#0" />
+            <element signature="e#745#764#0" />
+            <element signature="e#814#859#0" />
+            <element signature="e#900#998#0" />
+            <element signature="e#1018#1060#0" />
+            <element signature="e#1328#2053#0" />
+            <element signature="e#2065#3868#0" />
+            <element signature="e#3883#5500#0" />
+            <element signature="e#5546#5963#0" />
+            <element signature="e#5989#7383#0" />
+            <element signature="e#6264#7358#0" />
+            <element signature="e#6295#6604#0" />
+            <element signature="e#6649#7002#0" />
+            <element signature="e#7045#7358#0" />
+            <element signature="e#7410#8215#0" />
           </folding>
         </state>
       </provider>

@@ -11,11 +11,13 @@
       <w>datasets</w>
       <w>fullyconnected</w>
       <w>hparameters</w>
+      <w>imshow</w>
       <w>keras</w>
       <w>maxpool</w>
       <w>pred</w>
       <w>preprocess</w>
       <w>relu</w>
+      <w>rmodel</w>
       <w>thresholding</w>
       <w>yolo</w>
     </words>
