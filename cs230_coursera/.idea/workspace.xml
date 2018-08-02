@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/inception_blocks_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/inception_blocks_v2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +20,13 @@
       <file leaf-file-name="fr_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#896#1353#0" />
+                <element signature="e#725#786#0" />
+                <element signature="e#1375#1408#0" />
+                <element signature="e#1428#1512#0" />
                 <element signature="e#1192#2152#0" />
                 <element signature="e#1238#2096#0" />
                 <element signature="e#2210#3477#0" />
@@ -32,6 +34,7 @@
                 <element signature="e#2813#2836#0" />
                 <element signature="e#3247#3322#0" />
                 <element signature="e#3341#3422#0" />
+                <element signature="e#3945#4196#0" />
               </folding>
             </state>
           </provider>
@@ -91,7 +94,7 @@
     <option name="x" value="148" />
     <option name="y" value="22" />
     <option name="width" value="1104" />
-    <option name="height" value="667" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +129,14 @@
               <item name="week4_face_rec" type="462c0819:PsiDirectoryNode" />
               <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cs230_coursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs230_coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
+              <item name="week4_face_rec" type="462c0819:PsiDirectoryNode" />
+              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="saved_models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -135,7 +146,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="/opt/local/bin/python2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -304,13 +315,13 @@
     <frame x="148" y="22" width="1104" height="667" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.26992753" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" weight="0.26992753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6387597" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38139534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4155039" />
       <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.26992753" />
@@ -667,10 +678,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#896#1353#0" />
+            <element signature="e#725#786#0" />
+            <element signature="e#1375#1408#0" />
+            <element signature="e#1428#1512#0" />
             <element signature="e#1192#2152#0" />
             <element signature="e#1238#2096#0" />
             <element signature="e#2210#3477#0" />
@@ -678,6 +692,7 @@
             <element signature="e#2813#2836#0" />
             <element signature="e#3247#3322#0" />
             <element signature="e#3341#3422#0" />
+            <element signature="e#3945#4196#0" />
           </folding>
         </state>
       </provider>
