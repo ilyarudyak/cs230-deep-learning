@@ -1,3 +1,4 @@
+from keras.engine.saving import load_model, model_from_json
 from keras.models import Sequential
 from keras.layers import Conv2D, ZeroPadding2D, Activation, Input, concatenate
 from keras.models import Model
@@ -19,22 +20,32 @@ from fr_utils import *
 from inception_blocks_v2 import *
 from triplet_loss import triplet_loss
 
+MODEL_WEIGHTS = 'saved_models/FRmodel_weights.h5'
+MODEL_ARCH = 'saved_models/FRmodel_arch.h5'
 
-def load_model():
-    start = time.time()
-    print('start loading model ...')
+
+# noinspection PyShadowingNames
+def build_model():
+    # this is an Inception model from file inception_blocks_v2.py
+    # build with keras functional API
     FRmodel = faceRecoModel(input_shape=(3, 96, 96))
     FRmodel.compile(optimizer='adam', loss=triplet_loss, metrics=['accuracy'])
-
-    start2 = time.time()
-    print(f'elapsed: {start2 - start} start loading weights ... ')
     load_weights_from_FaceNet(FRmodel)
 
-    finish = time.time()
-    print(f'elapsed: {finish - start2} finish loading model ...')
+    # save model to disk (Weights + Model Architecture)
+    FRmodel.save_weights(MODEL_WEIGHTS)
+    with open(MODEL_ARCH, 'w') as f:
+        f.write(FRmodel.to_json())
+
+
+def load_model_from_disk():
+    with open(MODEL_ARCH, 'r') as f:
+        FRmodel = model_from_json(f.read())
+        FRmodel.load_weights(MODEL_WEIGHTS)
     return FRmodel
 
 
+# noinspection PyShadowingNames
 def build_database(FRmodel):
     print('start building db ...')
     database = {"danielle": img_to_encoding("images/danielle.png", FRmodel),
@@ -53,6 +64,7 @@ def build_database(FRmodel):
     return database
 
 
+# noinspection PyShadowingNames
 def verify(image_path, identity, database, model):
     """
     Function that verifies if the person on the "image_path" image is "identity".
@@ -92,8 +104,12 @@ def verify(image_path, identity, database, model):
 
 if __name__ == '__main__':
     K.set_image_data_format('channels_first')
-    FRmodel = load_model()
+    # build_model()
+
+    start = time.time()
+    FRmodel = load_model_from_disk()
     database = build_database(FRmodel)
     print(database['dan'].shape)
     dist, door_open = verify("images/camera_0.jpg", "younes", database, FRmodel)
     print(dist, door_open)
+    print(f'elapsed:{time.time() - start}')
