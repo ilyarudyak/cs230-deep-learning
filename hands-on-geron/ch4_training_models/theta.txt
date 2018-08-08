@@ -1,0 +1,9 @@
+normal equations:
+
+[[ 4.21509616]
+ [ 2.77011339]]
+
+batch gradient descent:
+
+[[ 4.21509616]
+ [ 2.77011339]]
