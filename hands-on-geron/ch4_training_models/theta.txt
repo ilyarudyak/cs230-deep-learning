@@ -21,4 +21,9 @@ stochastic gradient descent:
 - sklearn
 [ 4.20074241] [ 2.75837493]
 
+mini-batch gradient descent
+
+[[ 4.1553938 ]
+ [ 2.80211145]]
+
 

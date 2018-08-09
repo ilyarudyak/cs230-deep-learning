@@ -109,6 +109,30 @@ def sgd_sklearn():
     print(sgd.intercept_, sgd.coef_)
 
 
+def mini_batch_grad_descent(epochs=50, m=N, k=10):
+    np.random.seed(42)
+    theta = np.random.randn(2, 1)
+    for epoch in range(epochs):
+        shuffled_indices = np.random.permutation(m)
+        X_train_b_sf = X_train_b[shuffled_indices, :]
+        y_train_sf = y_train[shuffled_indices, :]
+        for i in range(m // k):
+            xmb = X_train_b_sf[i*k:(i+1)*k, :]
+            ymb = y_train_sf[i*k:(i+1)*k, :]
+
+            # so formula here is the same as in batch GD except we
+            # use mini-batch and k instead of m
+            grads = (2 / k) * xmb.T.dot(xmb.dot(theta) - ymb)
+
+            lrate = learning_schedule(epoch * m / k + i)
+            theta -= lrate * grads
+        print(f'epoch:{epoch:2d} rate:{lrate:.4f}')
+
+    print(theta)
+    y_pred = X_test_b.dot(theta)
+    # plot_regression(y_pred)
+
+
 if __name__ == '__main__':
     X_train, _, X_test, _ = get_data()
     X_train_b, y_train, X_test_b, y_test = preprocess_data()
@@ -116,4 +140,5 @@ if __name__ == '__main__':
     # normal_equations()
     # batch_grad_descent()
     # stochastic_grad_descent2()
-    sgd_sklearn()
+    # sgd_sklearn()
+    mini_batch_grad_descent()
