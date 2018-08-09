@@ -7,3 +7,15 @@ batch gradient descent:
 
 [[ 4.21509616]
  [ 2.77011339]]
+
+stochastic gradient descent:
+
+- no rate reducing
+[[ 3.71258118]
+ [ 3.1297206 ]]
+
+- with rate reducing
+[[ 4.22135218]
+ [ 2.77933887]]
+
+

@@ -2,6 +2,7 @@
   <dictionary name="ilyarudyak">
     <words>
       <w>autodiff</w>
+      <w>lrate</w>
       <w>sklearn</w>
       <w>tensorflow</w>
       <w>virginica</w>
