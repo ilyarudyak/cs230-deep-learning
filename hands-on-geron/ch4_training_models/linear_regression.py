@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import SGDRegressor
 
 N = 100
 a, b, sigma = 3, 4, 1
@@ -62,7 +63,6 @@ def stochastic_grad_descent(epochs=50, m=N):
     theta = np.random.randn(2, 1)
     for epoch in range(epochs):
         for i in range(m):
-
             # with random index
             # random_index = np.random.randint(m)
             # x = X_train_b[random_index, :].reshape(1, 2)
@@ -103,10 +103,17 @@ def learning_schedule(t, t0=5, t1=50):
     return t0 / (t + t1)
 
 
+def sgd_sklearn():
+    sgd = SGDRegressor(max_iter=50, penalty=None, eta0=0.1)
+    sgd.fit(X_train, y_train.ravel())
+    print(sgd.intercept_, sgd.coef_)
+
+
 if __name__ == '__main__':
     X_train, _, X_test, _ = get_data()
     X_train_b, y_train, X_test_b, y_test = preprocess_data()
     # fit_lr_sklearn()
     # normal_equations()
     # batch_grad_descent()
-    stochastic_grad_descent2()
+    # stochastic_grad_descent2()
+    sgd_sklearn()

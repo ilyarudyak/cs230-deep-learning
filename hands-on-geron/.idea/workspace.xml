@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch4_training_models/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_training_models/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4_training_models/theta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_training_models/theta.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +19,7 @@
       <file leaf-file-name="theta.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch4_training_models/theta.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="20">
               <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
@@ -30,13 +28,25 @@
       <file leaf-file-name="linear_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch4_training_models/linear_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            <state relative-caret-position="244">
+              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
               <folding>
+                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#160#362#0" />
                 <element signature="e#336#533#0" />
                 <element signature="e#647#806#0" />
+                <element signature="e#872#980#0" />
                 <element signature="e#640#750#0" />
+                <element signature="e#1222#1491#0" />
+                <element signature="e#1325#1421#0" />
+                <element signature="e#1578#2012#0" />
+                <element signature="e#1661#1893#0" />
+                <element signature="e#1705#2151#0" />
+                <element signature="e#1692#1711#0" />
+                <element signature="e#2312#2699#0" />
+                <element signature="e#2394#2898#0" />
+                <element signature="e#2428#2665#0" />
+                <element signature="e#2057#2077#0" />
               </folding>
             </state>
           </provider>
@@ -247,7 +257,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49922958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49922958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32973805" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -363,20 +373,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_training_models/theta.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="20">
           <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_training_models/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state relative-caret-position="244">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
           <folding>
+            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#160#362#0" />
             <element signature="e#336#533#0" />
             <element signature="e#647#806#0" />
+            <element signature="e#872#980#0" />
             <element signature="e#640#750#0" />
+            <element signature="e#1222#1491#0" />
+            <element signature="e#1325#1421#0" />
+            <element signature="e#1578#2012#0" />
+            <element signature="e#1661#1893#0" />
+            <element signature="e#1705#2151#0" />
+            <element signature="e#1692#1711#0" />
+            <element signature="e#2312#2699#0" />
+            <element signature="e#2394#2898#0" />
+            <element signature="e#2428#2665#0" />
+            <element signature="e#2057#2077#0" />
           </folding>
         </state>
       </provider>
