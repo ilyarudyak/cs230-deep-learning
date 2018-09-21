@@ -4,6 +4,7 @@
       <w>alexnet</w>
       <w>caffe</w>
       <w>crossentropy</w>
+      <w>gans</w>
       <w>keras</w>
       <w>lenet</w>
       <w>preprocess</w>
