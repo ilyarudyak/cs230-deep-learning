@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4_training_models/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_training_models/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4_training_models/theta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_training_models/theta.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,10 +27,9 @@
       <file leaf-file-name="linear_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch4_training_models/linear_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="121" column="34" lean-forward="true" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+            <state relative-caret-position="324">
+              <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#160#362#0" />
                 <element signature="e#336#533#0" />
                 <element signature="e#647#806#0" />
@@ -40,10 +37,21 @@
                 <element signature="e#640#750#0" />
                 <element signature="e#1222#1491#0" />
                 <element signature="e#1325#1421#0" />
+                <element signature="e#1578#2012#0" />
+                <element signature="e#1661#1893#0" />
+                <element signature="e#1705#2151#0" />
+                <element signature="e#1692#1711#0" />
                 <element signature="e#2312#2699#0" />
                 <element signature="e#2394#2898#0" />
                 <element signature="e#2428#2665#0" />
                 <element signature="e#2057#2077#0" />
+                <element signature="e#2846#2945#0" />
+                <element signature="e#3033#3525#0" />
+                <element signature="e#3135#3579#0" />
+                <element signature="e#3162#3392#0" />
+                <element signature="e#3249#3304#0" />
+                <element signature="e#3559#3812#0" />
+                <element signature="e#3671#3689#0" />
               </folding>
             </state>
           </provider>
@@ -377,10 +385,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4_training_models/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="121" column="34" lean-forward="true" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+        <state relative-caret-position="324">
+          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#160#362#0" />
             <element signature="e#336#533#0" />
             <element signature="e#647#806#0" />
@@ -388,10 +395,21 @@
             <element signature="e#640#750#0" />
             <element signature="e#1222#1491#0" />
             <element signature="e#1325#1421#0" />
+            <element signature="e#1578#2012#0" />
+            <element signature="e#1661#1893#0" />
+            <element signature="e#1705#2151#0" />
+            <element signature="e#1692#1711#0" />
             <element signature="e#2312#2699#0" />
             <element signature="e#2394#2898#0" />
             <element signature="e#2428#2665#0" />
             <element signature="e#2057#2077#0" />
+            <element signature="e#2846#2945#0" />
+            <element signature="e#3033#3525#0" />
+            <element signature="e#3135#3579#0" />
+            <element signature="e#3162#3392#0" />
+            <element signature="e#3249#3304#0" />
+            <element signature="e#3559#3812#0" />
+            <element signature="e#3671#3689#0" />
           </folding>
         </state>
       </provider>

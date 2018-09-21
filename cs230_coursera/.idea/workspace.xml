@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14062fb-5b92-4ad0-ac3b-8856b7fa9697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,25 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fr_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
+      <file leaf-file-name="entropy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-              <folding>
-                <element signature="e#896#1353#0" />
-                <element signature="e#725#786#0" />
-                <element signature="e#1375#1408#0" />
-                <element signature="e#1428#1512#0" />
-                <element signature="e#1192#2152#0" />
-                <element signature="e#1238#2096#0" />
-                <element signature="e#2210#3477#0" />
-                <element signature="e#2210#2807#1" />
-                <element signature="e#2813#2836#0" />
-                <element signature="e#3247#3322#0" />
-                <element signature="e#3341#3422#0" />
-                <element signature="e#3945#4196#0" />
-              </folding>
+            <state relative-caret-position="457">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -87,12 +74,13 @@
         <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/temp_model.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/inception_blocks_v2.py" />
         <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py" />
+        <option value="$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="22" />
+    <option name="x" value="176" />
+    <option name="y" value="7" />
     <option name="width" value="1104" />
     <option name="height" value="744" />
   </component>
@@ -135,7 +123,7 @@
               <item name="course4_cnn" type="462c0819:PsiDirectoryNode" />
               <item name="week4_face_rec" type="462c0819:PsiDirectoryNode" />
               <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="saved_models" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,26 +300,26 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="22" width="1104" height="667" extended-state="0" />
+    <frame x="176" y="7" width="1104" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" weight="0.26992753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.26992753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38139534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4155039" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4141274" />
       <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.26992753" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38088644" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -346,13 +334,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week2_resnet/keras_tutorial/happy_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course1_nn_dl/week2_log_regression/Logistic+Regression+with+a+Neural+Network+mindset+v3.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -598,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,31 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/temp_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#51#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/inception_blocks_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="216" column="20" lean-forward="true" selection-start-line="216" selection-start-column="20" selection-end-line="216" selection-end-column="20" />
-          <folding>
-            <element signature="e#446#2323#0" />
-            <element signature="e#446#498#1" />
-            <element signature="e#2356#4147#0" />
-            <element signature="e#4180#5130#0" />
-            <element signature="e#5163#6436#0" />
-            <element signature="e#6469#7440#0" />
-            <element signature="e#7473#8391#0" />
-            <element signature="e#8424#9366#0" />
-            <element signature="e#9404#9603#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,42 +615,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-864">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#575#684#0" />
-            <element signature="e#705#725#0" />
-            <element signature="e#747#766#0" />
-            <element signature="e#817#862#0" />
-            <element signature="e#904#1002#0" />
-            <element signature="e#1023#1065#0" />
-            <element signature="e#1334#2093#0" />
-            <element signature="e#3972#5664#0" />
-            <element signature="e#7579#8381#0" />
-            <element signature="e#8429#9185#0" />
-            <element signature="e#8429#8530#0" />
-            <element signature="e#8695#8789#0" />
-            <element signature="e#8892#8927#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/fr_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-          <folding>
-            <element signature="e#896#1353#0" />
-            <element signature="e#725#786#0" />
-            <element signature="e#1375#1408#0" />
-            <element signature="e#1428#1512#0" />
-            <element signature="e#1192#2152#0" />
-            <element signature="e#1238#2096#0" />
-            <element signature="e#2210#3477#0" />
-            <element signature="e#2210#2807#1" />
-            <element signature="e#2813#2836#0" />
-            <element signature="e#3247#3322#0" />
-            <element signature="e#3341#3422#0" />
-            <element signature="e#3945#4196#0" />
-          </folding>
+        <state relative-caret-position="577">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/temp_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4_cnn/week4_face_rec/face_recognition/temp/entropy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
