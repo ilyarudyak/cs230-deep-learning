@@ -75,6 +75,7 @@ def train(epochs=2000, batch=128):
 
             noise = np.random.uniform(-1.0, 1.0, size=[16, 100])
             gen_imgs = generator.predict(noise)
+            # np.save('gen_img' + str(i+1) + '.npy', gen_imgs)
 
             plt.figure(figsize=(5, 5))
 
@@ -85,6 +86,7 @@ def train(epochs=2000, batch=128):
 
             plt.tight_layout()
             plt.show()
+            # plt.savefig('apple' + str(i+1) + '.png')
 
     return a_metrics, d_metrics
 
@@ -97,4 +99,4 @@ if __name__ == '__main__':
                           metrics=['accuracy'])
     generator = generator_builder()
     adversarial_model = adversarial_builder(discriminator, generator)
-    a_metrics_complete, d_metrics_complete = train(epochs=100)
+    a_metrics_complete, d_metrics_complete = train(epochs=3000)
