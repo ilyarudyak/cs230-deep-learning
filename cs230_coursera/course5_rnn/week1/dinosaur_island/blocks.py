@@ -78,7 +78,7 @@ def sample(parameters, char_to_ix, seed):
         # Step 3: Sample the index of a character within the vocabulary from the probability distribution y
         idx = np.random.choice(list(range(vocab_size)), p=y.ravel())
 
-        print(f'counter={counter} idx={idx}')
+        # print(f'counter={counter} idx={idx}')
 
         # Append the index to "indices"
         indices.append(idx)
