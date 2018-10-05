@@ -20,11 +20,6 @@ def get_initial_loss(vocab_size, seq_length):
     return -np.log(1.0 / vocab_size) * seq_length
 
 
-def softmax(x):
-    e_x = np.exp(x - np.max(x))
-    return e_x / e_x.sum(axis=0)
-
-
 def initialize_parameters(n_a, n_x, n_y):
     """
     Initialize parameters with small random values
