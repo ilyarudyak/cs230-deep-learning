@@ -112,6 +112,11 @@ def rnn_step_backward(dy, gradients, parameters, x, a, a_prev):
 
 
 def update_parameters(parameters, gradients, lr):
+    parameters['Wax'] += -lr * gradients['dWax']
+    parameters['Waa'] += -lr * gradients['dWaa']
+    parameters['Wya'] += -lr * gradients['dWya']
+    parameters['b'] += -lr * gradients['db']
+    parameters['by'] += -lr * gradients['dby']
     return parameters
 
 ######################################################
@@ -120,7 +125,8 @@ def update_parameters(parameters, gradients, lr):
 
 
 def rnn_forward(X, Y, a0, parameters, vocab_size=27):
-    pass
+    loss, cache = 0, 0
+    return loss, cache
 
 
 def rnn_backward(X, Y, parameters, cache):
