@@ -124,6 +124,7 @@ def initialize_parameters(n_a, n_x, n_y):
 def smooth(loss, cur_loss):
     return loss * 0.999 + cur_loss * 0.001
 
+
 ######################################################
 #################### single steps ####################
 ######################################################
@@ -131,7 +132,7 @@ def smooth(loss, cur_loss):
 
 def rnn_step_forward(parameters, a_prev, x):
     Waa, Wax, Wya, by, ba = parameters['Waa'], parameters['Wax'], parameters['Wya'], \
-                           parameters['by'], parameters['b']
+                            parameters['by'], parameters['b']
     a_next = np.tanh(Waa.dot(a_prev) + Wax.dot(x) + ba)
     y_t = softmax(Wya.dot(a_next) + by)
     return a_next, y_t
@@ -157,6 +158,7 @@ def update_parameters(parameters, gradients, lr):
     parameters['by'] += -lr * gradients['dby']
     return parameters
 
+
 ######################################################
 #################### full pass    ####################
 ######################################################
@@ -176,7 +178,7 @@ def rnn_forward(X, Y, a0, parameters, vocab_size=27):
         # Set x[t] to be the one-hot vector representation of the t'th character in X.
         # if X[t] == None, we just have x[t]=0. This is used to set the input for the first timestep to the zero vector.
         x[t] = np.zeros((vocab_size, 1))
-        if (X[t] != None):
+        if X[t] is not None:
             x[t][X[t]] = 1
 
         # Run one step forward of the RNN

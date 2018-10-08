@@ -51,6 +51,7 @@ def model(data, ix_to_vocab, vocab_to_ix, num_iterations=5000, n_a=50,
     loss = get_initial_loss(vocab_size, dino_names)
 
     # Build list of all dinosaur names (training examples).
+    # examples = ['aachenosaurus', 'aardonyx', 'abdallahsaurus'...]
     with open("dinos.txt") as f:
         examples = f.readlines()
     examples = [x.lower().strip() for x in examples]
