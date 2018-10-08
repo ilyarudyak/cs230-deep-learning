@@ -1,4 +1,8 @@
+import keras
+import string
 import numpy as np
+
+from keras.preprocessing.text import Tokenizer
 
 
 def get_tokens(samples):
@@ -32,16 +36,41 @@ def vectorize(samples, token_index):
     return words, results
 
 
+def get_token_keras(samples):
+    # We create a tokenizer, configured to only take
+    # into account the top-1000 most common words
+    tokenizer = Tokenizer(num_words=1000)
+    # This builds the word index
+    tokenizer.fit_on_texts(samples)
+
+    # This turns strings into lists of integer indices.
+    sequences = tokenizer.texts_to_sequences(samples)
+    word_index = tokenizer.word_index
+
+    return word_index, sequences, tokenizer
+
+
+def vectorize_keras(tokenizer, samples):
+    # You could also directly get the one-hot binary representations.
+    # Note that other vectorization modes than one-hot encoding are supported!
+    one_hot_results = tokenizer.texts_to_matrix(samples, mode='binary')
+    return one_hot_results
+
+
 if __name__ == '__main__':
     # This is our initial data; one entry per "sample"
     # (in this toy example, a "sample" is just a sentence, but
     # it could be an entire document).
     samples = ['The cat sat on the mat.', 'The dog ate my homework.']
-    token_index = get_tokens(samples)
-    words, results = vectorize(samples, token_index)
 
-    for k in words.keys():
-        i, j = k
-        word, index = words[k]
-        print(f'{word:<10}:{index:<2}:{results[i, j, :]}')
+    # token_index = get_tokens(samples)
+    # words, results = vectorize(samples, token_index)
+    # for k in words.keys():
+    #     i, j = k
+    #     word, index = words[k]
+    #     print(f'{word:<10}:{index:<2}:{results[i, j, :]}')
+
+    word_index, sequences, tokenizer = get_token_keras(samples)
+    one_hot_results = vectorize_keras(tokenizer, samples)
+    print(one_hot_results.shape)
 
