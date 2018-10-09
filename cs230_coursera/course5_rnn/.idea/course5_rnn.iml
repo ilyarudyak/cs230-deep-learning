@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/week1/dinosaur_island" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week1/jazz_improvisation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week1/dinosaur_island_v2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week2/word_vectors" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
