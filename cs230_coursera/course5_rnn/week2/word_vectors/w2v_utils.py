@@ -16,9 +16,10 @@ window_size = 3
 vector_dim = 300
 epochs = 1000
 
-valid_size = 16     # Random set of words to evaluate similarity on.
+valid_size = 16  # Random set of words to evaluate similarity on.
 valid_window = 100  # Only pick dev samples in the head of the distribution.
 valid_examples = np.random.choice(valid_window, valid_size, replace=False)
+
 
 def maybe_download(filename, url, expected_bytes):
     """Download a file if not present, and make sure it's the right size."""
@@ -62,6 +63,7 @@ def build_dataset(words, n_words):
     reversed_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
     return data, count, dictionary, reversed_dictionary
 
+
 def collect_data(vocabulary_size=10000):
     url = 'http://mattmahoney.net/dc/'
     filename = maybe_download('text8.zip', url, 31344016)
@@ -71,6 +73,7 @@ def collect_data(vocabulary_size=10000):
                                                                 vocabulary_size)
     del vocabulary  # Hint to reduce memory.
     return data, count, dictionary, reverse_dictionary
+
 
 class SimilarityCallback:
     def run_sim(self):
@@ -96,20 +99,21 @@ class SimilarityCallback:
             out = validation_model.predict_on_batch([in_arr1, in_arr2])
             sim[i] = out
         return sim
-    
+
 
 def read_glove_vecs(glove_file):
     with open(glove_file, 'r') as f:
         words = set()
         word_to_vec_map = {}
-        
+
         for line in f:
             line = line.strip().split()
             curr_word = line[0]
             words.add(curr_word)
             word_to_vec_map[curr_word] = np.array(line[1:], dtype=np.float64)
-            
+
     return words, word_to_vec_map
+
 
 def relu(x):
     """
@@ -121,8 +125,8 @@ def relu(x):
     Return:
     s -- relu(x)
     """
-    s = np.maximum(0,x)
-    
+    s = np.maximum(0, x)
+
     return s
 
 
@@ -138,7 +142,7 @@ def initialize_parameters(vocab_size, n_h):
                     W2 -- weight matrix of shape (vocab_size, n_h)
                     b2 -- bias vector of shape (vocab_size, 1)
     """
-    
+
     np.random.seed(3)
     parameters = {}
 
@@ -148,6 +152,7 @@ def initialize_parameters(vocab_size, n_h):
     parameters['b2'] = np.zeros((vocab_size, 1))
 
     return parameters
+
 
 def softmax(x):
     """Compute softmax values for each sets of scores in x."""

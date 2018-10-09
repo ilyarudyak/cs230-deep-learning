@@ -185,3 +185,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+/week2/word_vectors/data/glove.6B.50d.txt
+week2/word_vectors/data/glove.6B.50d.txt
+week2/word_vectors/images/
