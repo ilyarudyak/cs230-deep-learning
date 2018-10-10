@@ -19,7 +19,7 @@ def get_data():
     maxLen = len(max(X_train, key=len).split())
     word_to_index, index_to_word, word_to_vec_map = \
         read_glove_vecs('../word_vectors/data/glove.6B.50d.txt')
-    return word_to_index, index_to_word, word_to_vec_map
+    return word_to_index, index_to_word, word_to_vec_map, X_train, Y_train
 
 
 def sentences_to_indices(X, word_to_index, max_len):
@@ -47,7 +47,7 @@ def sentences_to_indices(X, word_to_index, max_len):
 
 
 def get_indices(sentence, word_to_index):
-    words = sentence.split()
+    words = sentence.lower().split()
     return len(words), np.array([word_to_index[word] for word in words])
 
 
@@ -84,13 +84,69 @@ def pretrained_embedding_layer(word_to_vec_map, word_to_index):
     return embedding_layer
 
 
+def Emojify_V2(input_shape, word_to_vec_map, word_to_index):
+    """
+    Function creating the Emojify-v2 model's graph.
+
+    Arguments:
+    input_shape -- shape of the input, usually (max_len,)
+    word_to_vec_map -- dictionary mapping every word in a vocabulary into its 50-dimensional vector representation
+    word_to_index -- dictionary mapping from words to their indices in the vocabulary (400,001 words)
+
+    Returns:
+    model -- a model instance in Keras
+    """
+
+    ### START CODE HERE ###
+    # Define sentence_indices as the input of the graph,
+    # it should be of shape input_shape and dtype 'int32' (as it contains indices).
+    sentence_indices = Input(shape=input_shape, dtype=np.int32)
+
+    # Create the embedding layer pretrained with GloVe Vectors (≈1 line)
+    embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
+
+    # Propagate sentence_indices through your embedding layer, you get back the embeddings
+    embeddings = embedding_layer(sentence_indices)
+
+    # Propagate the embeddings through an LSTM layer with 128-dimensional hidden state
+    # Be careful, the returned output should be a batch of sequences.
+    X = LSTM(128, return_sequences=True)(embeddings)
+    # Add dropout with a probability of 0.5
+    X = Dropout(0.5)(X)
+    # Propagate X trough another LSTM layer with 128-dimensional hidden state
+    # Be careful, the returned output should be a single hidden state, not a batch of sequences.
+    X = LSTM(128)(X)
+    # Add dropout with a probability of 0.5
+    X = Dropout(0.5)(X)
+    # Propagate X through a Dense layer with softmax activation to get back a batch of 5-dimensional vectors.
+    X = Dense(5, activation='softmax')(X)
+    # Add a softmax activation
+    X = Activation('softmax')(X)
+
+    # Create Model instance which converts sentence_indices into X.
+    model = Model(sentence_indices, X)
+
+    ### END CODE HERE ###
+
+    return model
+
+
 if __name__ == '__main__':
-    word_to_index, index_to_word, word_to_vec_map = get_data()
+    word_to_index, index_to_word, word_to_vec_map, X_train, Y_train = get_data()
 
     # X1 = np.array(["funny lol", "lets play baseball", "food is ready for you"])
     # X1_indices = sentences_to_indices(X1, word_to_index, max_len=5)
     # print("X1 =", X1)
     # print("X1_indices =", X1_indices)
 
-    embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
-    print("weights[0][1][3] =", embedding_layer.get_weights()[0][1][3])
+    # embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
+    # print("weights[0][1][3] =", embedding_layer.get_weights()[0][1][3])
+
+    model = Emojify_V2((10,), word_to_vec_map, word_to_index)
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    X_train_indices = sentences_to_indices(X_train, word_to_index, 10)
+    Y_train_oh = convert_to_one_hot(Y_train, C=5)
+
+    model.fit(X_train_indices, Y_train_oh, epochs=50, batch_size=32, shuffle=True)
+
+
