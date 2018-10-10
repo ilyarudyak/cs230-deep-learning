@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from emo_utils import read_csv, convert_to_one_hot, read_glove_vecs, \
-    predict, softmax
+    predict, softmax, print_predictions
 
 
 def get_data():
@@ -66,8 +66,9 @@ def model(X, Y, word_to_vec_map, learning_rate=0.01, num_iterations=400):
             cost = -np.sum(Y_oh[i] * np.log(a))
 
             # backward pass
-            # TODO
-            dz, dW, db = 0, 0, 0
+            dz = a - Y_oh[i]
+            dW = np.dot(dz.reshape(n_y,1), avg.reshape(1, n_h))
+            db = dz
 
             # update params
             W -= learning_rate * dW
@@ -82,5 +83,15 @@ def model(X, Y, word_to_vec_map, learning_rate=0.01, num_iterations=400):
 
 if __name__ == '__main__':
     X_train, Y_train, X_test, Y_test, word_to_vec_map = get_data()
-    pred, W, b = model(X_train, Y_train, word_to_vec_map)
-    print(pred[:10])
+    pred, W, b = model(X_train, Y_train, word_to_vec_map, num_iterations=400)
+
+    # pred_train = predict(X_train, Y_train, W, b, word_to_vec_map)
+    # pred_test = predict(X_test, Y_test, W, b, word_to_vec_map)
+
+    X_my_sentences = np.array(
+        ["i adore you", "i love you", "funny lol", "lets play with a ball",
+         "food is ready", "not feeling happy"])
+    Y_my_labels = np.array([[0], [0], [2], [1], [4], [3]])
+
+    pred = predict(X_my_sentences, Y_my_labels, W, b, word_to_vec_map)
+    print_predictions(X_my_sentences, pred)
