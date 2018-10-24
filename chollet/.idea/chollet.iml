@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/text_data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/text_data/embeddings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/text_data/one_hot_encoding" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/text_data/rnns" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
