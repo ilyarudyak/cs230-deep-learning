@@ -28,9 +28,11 @@ def get_data(n_unique_words=5000, n_words_to_skip=50, max_review_length=100,
         imdb.load_data(num_words=n_unique_words, skip_top=n_words_to_skip)
 
     x_train = pad_sequences(x_train, maxlen=max_review_length,
-                            padding=pad_type, truncating=trunc_type, value=pad_value)
+                            padding=pad_type, truncating=trunc_type,
+                            value=pad_value)
     x_valid = pad_sequences(x_valid, maxlen=max_review_length,
-                            padding=pad_type, truncating=trunc_type, value=pad_value)
+                            padding=pad_type, truncating=trunc_type,
+                            value=pad_value)
 
     return x_train, y_train, x_valid, y_valid
 

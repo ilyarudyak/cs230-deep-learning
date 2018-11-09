@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f95730-0ae6-4e41-9bda-1f8a799529d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gans/plot_apple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlp/lstm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course4_cnn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs230_coursera/course5_rnn/week2/word_vectors/word_analogy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cs230_coursera/course5_rnn/week2/word_vectors/word_analogy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dltf-krohn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dltf-krohn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gans/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/gans/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/dense/keras_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp/dense/keras_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,68 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gans/data_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discriminator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gans/discriminator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gans/generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gans/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_apple.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gans/plot_apple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,12 +48,13 @@
         <option value="$PROJECT_DIR$/gans/model.py" />
         <option value="$PROJECT_DIR$/gans/plot.py" />
         <option value="$PROJECT_DIR$/gans/plot_apple.py" />
+        <option value="$PROJECT_DIR$/nlp/dense/keras_model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="28" />
+    <option name="x" value="134" />
+    <option name="y" value="18" />
     <option name="width" value="1099" />
     <option name="height" value="695" />
   </component>
@@ -135,7 +77,13 @@
             <path>
               <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
-              <item name="gans" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dltf-krohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dltf-krohn" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="lstm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nlp/word_embed" />
       <recent name="$PROJECT_DIR$/notes" />
     </key>
   </component>
@@ -164,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_apple">
+  <component name="RunManager" selected="Python.keras_model">
     <configuration name="alexnet_oxford_flowers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dltf-krohn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,24 +132,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="convolutional_nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dltf-krohn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convolutional_nn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convolutional_nn/lenet5_mnist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dltf-krohn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,6 +145,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gans/data_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="keras_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dltf-krohn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlp/dense" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/dense/keras_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,19 +205,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.convolutional_nn_mnist" />
       <item itemvalue="Python.alexnet_oxford_flowers" />
       <item itemvalue="Python.data_manager" />
       <item itemvalue="Python.model" />
       <item itemvalue="Python.plot_apple" />
+      <item itemvalue="Python.keras_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keras_model" />
         <item itemvalue="Python.plot_apple" />
         <item itemvalue="Python.model" />
         <item itemvalue="Python.data_manager" />
         <item itemvalue="Python.alexnet_oxford_flowers" />
-        <item itemvalue="Python.convolutional_nn_mnist" />
       </list>
     </recent_temporary>
   </component>
@@ -286,10 +235,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="28" width="1099" height="695" extended-state="0" />
-    <editor active="true" />
+    <frame x="134" y="18" width="1099" height="695" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931756" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -312,6 +260,56 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gans/data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gans/discriminator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gans/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gans/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gans/plot_apple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gans/data_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -481,17 +479,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/datasets.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="320">
             <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -572,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/gans/apple4.png" />
     <entry file="file://$PROJECT_DIR$/gans/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="700">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
@@ -580,12 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gans/plot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gans/plot.py" />
     <entry file="file://$PROJECT_DIR$/gans/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="1460">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -596,9 +592,24 @@
     <entry file="file://$PROJECT_DIR$/gans/plot_apple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp/word_embed/raw_gutenberg_tsne.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp/dense/keras_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#402#682#0" />
+            <element signature="e#1407#1991#0" />
+            <element signature="e#1525#1571#0" />
           </folding>
         </state>
       </provider>

@@ -5,6 +5,12 @@
       <sourceFolder url="file://$MODULE_DIR$/fully_connected_nn" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/convolutional_nn" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gans" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/word_embed" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/dense" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/conv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/rnn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/lstm" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
