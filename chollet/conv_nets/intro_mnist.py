@@ -2,6 +2,7 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.datasets import mnist
 from keras.utils import to_categorical
+from keras.callbacks import TensorBoard
 
 
 def get_model():
@@ -36,11 +37,18 @@ def train_model(model, train_images, train_labels, epochs=5):
     model.compile(optimizer='rmsprop',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
-    model.fit(x=train_images, y=train_labels, epochs=epochs, batch_size=64)
+    callbacks = [TensorBoard(log_dir='logs',
+                             histogram_freq=1,
+                             embeddings_freq=1)]
+    history = model.fit(x=train_images, y=train_labels,
+                        epochs=epochs, batch_size=64,
+                        validation_split=.2,
+                        callbacks=callbacks)
+    return history
 
 
 if __name__ == '__main__':
     model = get_model()
     train_images, train_labels, test_images, test_labels = get_data()
-    train_model()
+    train_model(model, train_images, train_labels)
 
