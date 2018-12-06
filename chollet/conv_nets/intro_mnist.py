@@ -32,14 +32,15 @@ def get_data():
     return train_images, train_labels, test_images, test_labels
 
 
-def train_model():
+def train_model(model, train_images, train_labels, epochs=5):
     model.compile(optimizer='rmsprop',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
-    model.fit(x=train_images, y=train_labels, epochs=5, batch_size=64)
+    model.fit(x=train_images, y=train_labels, epochs=epochs, batch_size=64)
 
 
 if __name__ == '__main__':
     model = get_model()
     train_images, train_labels, test_images, test_labels = get_data()
+    train_model()
 
