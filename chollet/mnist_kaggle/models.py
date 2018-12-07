@@ -42,7 +42,7 @@ class MnistModel:
         self.callbacks = [TensorBoard(self.log_dir)]
 
         date = datetime.today().strftime('%Y%m%d_%H%M')
-        self.submission_filename = f'submissions/submission_{date}'
+        self.submission_filename = f'submissions/submission_{date}.csv'
 
     def build_chollet_model(self):
         self.model.add(Conv2D(filters=32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
@@ -69,8 +69,11 @@ class MnistModel:
     def make_submission(self):
         y_eval = self.model.predict(x=self.x_test,
                                     batch_size=self.batch_size)
-        d = {'ImageId': np.arange(1, y_eval.shape[0] + 1),
-             'Label': y_eval}
+        # y_eval one-hot-encoded (28000, 10)
+        # we have to convert into (28000,)
+        y_classes = np.argmax(y_eval, axis=1)
+        d = {'ImageId': np.arange(1, y_classes.shape[0] + 1),
+             'Label': y_classes}
         df = pd.DataFrame(d)
         df.to_csv(self.submission_filename, index=False)
 

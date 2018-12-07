@@ -5,7 +5,7 @@ from keras.utils import to_categorical
 
 
 class DataManager:
-    def __init__(self, data_dir='/Users/ilyarudyak/data/mnist_kaggle'):
+    def __init__(self, data_dir='~/data/mnist_kaggle'):
         self.data_dir = data_dir
         self.train_file = 'train.csv'
         self.test_file = 'test.csv'
