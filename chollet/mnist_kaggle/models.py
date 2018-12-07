@@ -30,7 +30,7 @@ class MnistModel:
             dm = DataManager()
 
         self.x_train, self.y_train = dm.get_train_data()
-        self.x_test, self.y_test = dm.get_test_data()
+        self.x_test = dm.get_test_data()
 
         self.optimizer = optimizer
         self.loss = loss
@@ -59,15 +59,10 @@ class MnistModel:
                                  callbacks=self.callbacks)
         return history
 
-    def evaluate_model(self):
-        test_loss, test_acc = self.model.evaluate(self.x_test, self.y_test)
-        return test_loss, test_acc
-
 
 if __name__ == '__main__':
-    mm = MnistModel()
+    mm = MnistModel(epochs=1)
     history = mm.train_model()
-    test_loss, test_acc = mm.evaluate_model()
-    print(test_acc)
+    print(history)
 
 

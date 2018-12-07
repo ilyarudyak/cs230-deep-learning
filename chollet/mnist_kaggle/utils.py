@@ -17,7 +17,7 @@ class DataManager:
         y_train = df['label'].values
 
         # preprocess data
-        x_train = x_train.reshape((60000, 28, 28, 1))
+        x_train = x_train.reshape((42000, 28, 28, 1))
         x_train = x_train.astype('float32') / 255
         y_train = to_categorical(y_train)
 
@@ -26,12 +26,10 @@ class DataManager:
     def get_test_data(self):
         filename = os.path.join(self.data_dir, self.test_file)
         df = pd.read_csv(filename)
-        x_test = df.iloc[:, 1:].values
-        y_test = df['label'].values
+        x_test = df.values
 
         # preprocess data
-        x_test = x_test.reshape((60000, 28, 28, 1))
+        x_test = x_test.reshape((28000, 28, 28, 1))
         x_test = x_test.astype('float32') / 255
-        y_test = to_categorical(y_test)
 
-        return x_test, y_test
+        return x_test
