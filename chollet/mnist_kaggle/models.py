@@ -1,6 +1,10 @@
+import numpy as np
+
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.callbacks import TensorBoard
+
+from datetime import datetime
 
 from utils import *
 
@@ -37,6 +41,9 @@ class MnistModel:
         self.metrics = [metrics]
         self.callbacks = [TensorBoard(self.log_dir)]
 
+        date = datetime.today().strftime('%Y%m%d_%H%M')
+        self.submission_filename = f'submissions/submission_{date}'
+
     def build_chollet_model(self):
         self.model.add(Conv2D(filters=32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
         self.model.add(MaxPooling2D(pool_size=(2, 2)))
@@ -59,10 +66,18 @@ class MnistModel:
                                  callbacks=self.callbacks)
         return history
 
+    def make_submission(self):
+        y_eval = self.model.predict(x=self.x_test,
+                                    batch_size=self.batch_size)
+        d = {'ImageId': np.arange(1, y_eval.shape[0] + 1),
+             'Label': y_eval}
+        df = pd.DataFrame(d)
+        df.to_csv(self.submission_filename, index=False)
+
 
 if __name__ == '__main__':
     mm = MnistModel(epochs=1)
     history = mm.train_model()
-    print(history)
+    mm.make_submission()
 
 
