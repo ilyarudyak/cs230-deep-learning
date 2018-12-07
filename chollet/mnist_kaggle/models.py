@@ -1,7 +1,7 @@
 import numpy as np
 
 from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from keras.callbacks import TensorBoard
 
 from datetime import datetime
@@ -11,18 +11,21 @@ from utils import *
 
 class MnistModel:
     def __init__(self,
-                 name='chollet',
+                 name='krohn',
                  data_dir=None,
                  epochs=5,
                  batch_size=64,
                  validation_split=.2,
-                 optimizer='rmsprop',
+                 optimizer='adam',
                  loss='categorical_crossentropy',
                  metrics='accuracy'):
         self.model = Sequential()
         if name == 'chollet':
             self.build_chollet_model()
             self.log_dir = 'logs/chollet'
+        elif name == 'krohn':
+            self.build_krohn_model()
+            self.log_dir = 'logs/krohn'
 
         self.epochs = epochs
         self.batch_size = batch_size
@@ -53,6 +56,19 @@ class MnistModel:
         self.model.add(Flatten())
         self.model.add(Dense(units=64, activation='relu'))
         self.model.add(Dense(units=10, activation='softmax'))
+
+    def build_krohn_model(self):
+        self.model.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
+
+        self.model.add(Conv2D(64, kernel_size=(3, 3), activation='relu'))
+        self.model.add(MaxPooling2D(pool_size=(2, 2)))
+        self.model.add(Dropout(0.25))
+
+        self.model.add(Flatten())
+        self.model.add(Dense(128, activation='relu'))
+        self.model.add(Dropout(0.5))
+
+        self.model.add(Dense(10, activation='softmax'))
 
     def train_model(self):
         self.model.compile(optimizer=self.optimizer,
