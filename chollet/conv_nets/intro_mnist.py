@@ -37,9 +37,7 @@ def train_model(model, train_images, train_labels, epochs=5):
     model.compile(optimizer='rmsprop',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
-    callbacks = [TensorBoard(log_dir='logs',
-                             histogram_freq=1,
-                             embeddings_freq=1)]
+    callbacks = [TensorBoard(log_dir='logs')]
     history = model.fit(x=train_images, y=train_labels,
                         epochs=epochs, batch_size=64,
                         validation_split=.2,
