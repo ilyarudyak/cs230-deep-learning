@@ -88,11 +88,11 @@ class MnistModel:
                            loss=self.loss,
                            metrics=self.metrics)
 
-        dg = ImageDataGenerator(rotation_range=40,
-                                width_shift_range=0.2,
-                                height_shift_range=0.2,
-                                shear_range=0.2,
-                                zoom_range=0.2)
+        dg = ImageDataGenerator(rotation_range=10,
+                                width_shift_range=0.1,
+                                height_shift_range=0.1,
+                                shear_range=0.1,
+                                zoom_range=0.1)
         dg.fit(self.x_train)
 
         history = self.model.fit_generator(dg.flow(self.x_train, self.y_train,
