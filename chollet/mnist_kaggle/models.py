@@ -36,7 +36,7 @@ class MnistModel:
         else:
             dm = DataManager()
 
-        self.x_train, self.y_train = dm.get_train_data()
+        self.x_train, self.x_val, self.y_train, self.y_val = dm.get_train_data()
         self.x_test = dm.get_test_data()
 
         self.optimizer = optimizer
@@ -78,7 +78,7 @@ class MnistModel:
         history = self.model.fit(x=self.x_train, y=self.y_train,
                                  epochs=self.epochs,
                                  batch_size=self.batch_size,
-                                 validation_split=self.validation_split,
+                                 validation_data=(self.x_val, self.y_val),
                                  callbacks=self.callbacks)
         return history
 
@@ -95,8 +95,8 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(epochs=1)
+    mm = MnistModel(name='chollet', epochs=1)
     history = mm.train_model()
-    mm.make_submission()
+    # mm.make_submission()
 
 
