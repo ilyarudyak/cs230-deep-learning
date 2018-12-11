@@ -19,7 +19,8 @@ class MnistModel:
                  validation_split=.2,
                  optimizer='adam',
                  loss='categorical_crossentropy',
-                 metrics='accuracy'):
+                 metrics='accuracy',
+                 verbose=1):
         self.model = Sequential()
         if name == 'chollet':
             self.build_chollet_model()
@@ -47,6 +48,8 @@ class MnistModel:
 
         date = datetime.today().strftime('%Y%m%d_%H%M')
         self.submission_filename = f'submissions/submission_{date}.csv'
+
+        self.verbose = verbose
 
     def build_chollet_model(self):
         self.model.add(Conv2D(filters=32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
@@ -80,7 +83,8 @@ class MnistModel:
                                  epochs=self.epochs,
                                  batch_size=self.batch_size,
                                  validation_data=(self.x_val, self.y_val),
-                                 callbacks=self.tensorbd)
+                                 callbacks=self.tensorbd,
+                                 verbose=self.verbose)
         return history
 
     def train_model_aug(self):
