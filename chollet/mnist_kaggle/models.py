@@ -116,6 +116,7 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='chollet', epochs=1, batch_size=128)
-    history = mm.train_model_aug()
+    mm = MnistModel(name='chollet', epochs=2, batch_size=512)
+    history = mm.train_model()
+    print(history)
     # mm.make_submission()
