@@ -19,7 +19,7 @@ class HyperParamSearcher:
 
 if __name__ == '__main__':
     batch_sizes = [64, 128, 256, 512]
-    models = [MnistModel(name='krohn', epochs=1, batch_size=bs) for bs in batch_sizes]
+    models = [MnistModel(name='krohn', epochs=1, batch_size=bs, verbose=0) for bs in batch_sizes]
 
     hps = HyperParamSearcher(models)
     val_accs, val_accs_max = hps.batch_size_search()

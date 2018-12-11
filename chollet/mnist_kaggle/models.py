@@ -104,7 +104,8 @@ class MnistModel:
                                            epochs=self.epochs,
                                            validation_data=(self.x_val, self.y_val),
                                            steps_per_epoch=self.x_train.shape[0] // self.batch_size,
-                                           callbacks=self.tensorbd)
+                                           callbacks=self.tensorbd,
+                                           verbose=self.verbose)
         return history
 
     def make_submission(self):
@@ -120,7 +121,7 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='chollet', epochs=2, batch_size=512)
+    mm = MnistModel(name='chollet', epochs=1, batch_size=512, verbose=0)
     history = mm.train_model()
     print(history)
     # mm.make_submission()
