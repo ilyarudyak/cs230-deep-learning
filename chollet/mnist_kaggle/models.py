@@ -3,6 +3,7 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from keras.callbacks import TensorBoard
+from keras.preprocessing.image import ImageDataGenerator
 
 from datetime import datetime
 
@@ -42,7 +43,7 @@ class MnistModel:
         self.optimizer = optimizer
         self.loss = loss
         self.metrics = [metrics]
-        self.callbacks = [TensorBoard(self.log_dir)]
+        self.tensorbd = [TensorBoard(self.log_dir)]
 
         date = datetime.today().strftime('%Y%m%d_%H%M')
         self.submission_filename = f'submissions/submission_{date}.csv'
@@ -79,7 +80,27 @@ class MnistModel:
                                  epochs=self.epochs,
                                  batch_size=self.batch_size,
                                  validation_data=(self.x_val, self.y_val),
-                                 callbacks=self.callbacks)
+                                 callbacks=self.tensorbd)
+        return history
+
+    def train_model_aug(self):
+        self.model.compile(optimizer=self.optimizer,
+                           loss=self.loss,
+                           metrics=self.metrics)
+
+        dg = ImageDataGenerator(rotation_range=40,
+                                width_shift_range=0.2,
+                                height_shift_range=0.2,
+                                shear_range=0.2,
+                                zoom_range=0.2)
+        dg.fit(self.x_train)
+
+        history = self.model.fit_generator(dg.flow(self.x_train, self.y_train,
+                                                   batch_size=self.batch_size),
+                                           epochs=self.epochs,
+                                           validation_data=(self.x_val, self.y_val),
+                                           steps_per_epoch=self.x_train.shape[0] // self.batch_size,
+                                           callbacks=self.tensorbd)
         return history
 
     def make_submission(self):
@@ -95,8 +116,6 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='chollet', epochs=1)
-    history = mm.train_model()
+    mm = MnistModel(name='chollet', epochs=1, batch_size=128)
+    history = mm.train_model_aug()
     # mm.make_submission()
-
-
