@@ -13,7 +13,7 @@ from utils import *
 
 class MnistModel:
     def __init__(self,
-                 name='opt',
+                 name='interm',
                  data_dir=None,
                  epochs=5,
                  batch_size=64,
@@ -29,9 +29,9 @@ class MnistModel:
         elif name == 'krohn':
             self.build_krohn_model()
             self.log_dir = 'logs/krohn'
-        elif name == 'opt':
+        elif name == 'interm':
             self.build_interm_model()
-            self.log_dir = 'logs/opt'
+            self.log_dir = 'logs/interm'
 
         self.epochs = epochs
         self.batch_size = batch_size
@@ -147,6 +147,6 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='krohn', epochs=40, batch_size=256)
+    mm = MnistModel(name='interm', epochs=1, batch_size=256)
     history = mm.train_model_aug()
     # mm.make_submission()
