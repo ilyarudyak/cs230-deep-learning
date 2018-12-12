@@ -2,7 +2,7 @@ import numpy as np
 
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from keras.callbacks import TensorBoard
+from keras.callbacks import TensorBoard, ModelCheckpoint
 from keras.preprocessing.image import ImageDataGenerator
 
 from datetime import datetime
@@ -44,10 +44,15 @@ class MnistModel:
         self.optimizer = optimizer
         self.loss = loss
         self.metrics = [metrics]
-        self.tensorbd = [TensorBoard(self.log_dir)]
 
         date = datetime.today().strftime('%Y%m%d_%H%M')
         self.submission_filename = f'submissions/submission_{date}.csv'
+
+        checkpoint_filename = f'checkpoints/model_{date}.h5'
+        self.callbacks = [TensorBoard(self.log_dir),
+                          ModelCheckpoint(filepath=checkpoint_filename,
+                                          monitor='val_acc',
+                                          save_best_only=True)]
 
         self.verbose = verbose
 
@@ -83,7 +88,7 @@ class MnistModel:
                                  epochs=self.epochs,
                                  batch_size=self.batch_size,
                                  validation_data=(self.x_val, self.y_val),
-                                 callbacks=self.tensorbd,
+                                 callbacks=self.callbacks,
                                  verbose=self.verbose)
         return history
 
@@ -104,7 +109,7 @@ class MnistModel:
                                            epochs=self.epochs,
                                            validation_data=(self.x_val, self.y_val),
                                            steps_per_epoch=self.x_train.shape[0] // self.batch_size,
-                                           callbacks=self.tensorbd,
+                                           callbacks=self.callbacks,
                                            verbose=self.verbose)
         return history
 
@@ -121,7 +126,6 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='chollet', epochs=1, batch_size=512, verbose=0)
-    history = mm.train_model()
-    print(history)
+    mm = MnistModel(name='krohn', epochs=2, batch_size=256)
+    history = mm.train_model_aug()
     # mm.make_submission()
