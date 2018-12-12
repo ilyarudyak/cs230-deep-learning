@@ -4,6 +4,7 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from keras.callbacks import TensorBoard, ModelCheckpoint
 from keras.preprocessing.image import ImageDataGenerator
+from keras.models import load_model
 
 from datetime import datetime
 
@@ -113,9 +114,14 @@ class MnistModel:
                                            verbose=self.verbose)
         return history
 
-    def make_submission(self):
-        y_eval = self.model.predict(x=self.x_test,
-                                    batch_size=self.batch_size)
+    def make_submission(self, model_filename=None):
+        if model_filename:
+            model = load_model(model_filename)
+        else:
+            model = self.model
+
+        y_eval = model.predict(x=self.x_test,
+                               batch_size=self.batch_size)
         # y_eval one-hot-encoded (28000, 10)
         # we have to convert into (28000,)
         y_classes = np.argmax(y_eval, axis=1)
