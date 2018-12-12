@@ -13,7 +13,7 @@ from utils import *
 
 class MnistModel:
     def __init__(self,
-                 name='krohn',
+                 name='opt',
                  data_dir=None,
                  epochs=5,
                  batch_size=64,
@@ -29,6 +29,9 @@ class MnistModel:
         elif name == 'krohn':
             self.build_krohn_model()
             self.log_dir = 'logs/krohn'
+        elif name == 'opt':
+            self.build_interm_model()
+            self.log_dir = 'logs/opt'
 
         self.epochs = epochs
         self.batch_size = batch_size
@@ -80,6 +83,19 @@ class MnistModel:
 
         self.model.add(Dense(10, activation='softmax'))
 
+    def build_interm_model(self):
+        self.model.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
+
+        self.model.add(Conv2D(64, kernel_size=(3, 3), activation='relu'))
+        self.model.add(MaxPooling2D(pool_size=(2, 2)))
+        self.model.add(Dropout(0.25))
+
+        self.model.add(Flatten())
+        self.model.add(Dense(256, activation='relu'))  # changed 128 -> 256
+        self.model.add(Dropout(0.5))
+
+        self.model.add(Dense(10, activation='softmax'))
+
     def train_model(self):
         self.model.compile(optimizer=self.optimizer,
                            loss=self.loss,
@@ -101,7 +117,6 @@ class MnistModel:
         dg = ImageDataGenerator(rotation_range=10,
                                 width_shift_range=0.1,
                                 height_shift_range=0.1,
-                                shear_range=0.1,
                                 zoom_range=0.1)
         dg.fit(self.x_train)
 
@@ -132,6 +147,6 @@ class MnistModel:
 
 
 if __name__ == '__main__':
-    mm = MnistModel(name='krohn', epochs=2, batch_size=256)
+    mm = MnistModel(name='krohn', epochs=40, batch_size=256)
     history = mm.train_model_aug()
     # mm.make_submission()
